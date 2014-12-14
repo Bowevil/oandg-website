@@ -122,10 +122,19 @@ vertical-align: top;
 }
 
 .flexslider {
+    background-color: #b6985a !important;
     border-top:  4px solid #b6985a !important;
     border-left: none !important;
     border-right: none !important;
     border-bottom:  4px solid #b6985a !important;
+}
+
+.flexslider .slides img{
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: auto; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .main {
@@ -179,6 +188,13 @@ vertical-align: top;
 .region-after-content {
     background-color: #FFFFFF !important;
     height: auto;
+}
+
+.region-after-content .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #b0e0e6;
 }
 
 /* Begin profolio page exposed filters */
