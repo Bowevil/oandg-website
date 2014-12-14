@@ -31,20 +31,64 @@ a {
 
 }
 
-
-.tb-megamenu.tb-megamenu-main-menu .collapse, .tb-megamenu-menu-seconday-menu .collapse {
+/* Begin TB Menu */ 
+.tb-megamenu-main-menu .collapse, .tb-megamenu-menu-seconday-menu .collapse {
     display: inline-block;
  }
  
 .tb-megamenu{
     background-color: transparent;
     background-image: none;
-    height: 50px;
 }
+
+#block-tb-megamenu-menu-seconday-menu {
+    z-index: 10;
+    position: relative;
+    top: 0px;
+    left:400px;
+}
+
+#block-tb-megamenu-main-menu {
+    z-index: 9;
+    position: relative;
+    top: -50px;
+}
+
+.block-tb-megamenu {
+    height: 80px;
+}
+
+.tb-megamenu .nav > li > a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+}
+
+.tb-megamenu .btn-navbar {
+  display: none;
+  float: left;
+  padding: 10px;
+}  
+/* End TB Menu */ 
  
 /* Begin header */ 
 #header-top {
     overflow: visible;
+}
+
+#header {
+    height: 50px !important;
+    min-height: 75px !important;
+    padding: 0px 0  !important;
+}
+
+#header > .container {
+    height: 75px !important;
+}
+
+#header .logo {
+vertical-align: top;
 }
 
 /* End header */
