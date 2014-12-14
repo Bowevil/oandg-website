@@ -1,19 +1,287 @@
 /*=======================================================================
 *** PORTO_SUB STYLE SHEET***
 ========================================================================*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,300,700);
+
+body{
+    background-color: #eeeeee !important;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #757575 !important;  
+}
+
+a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+
+}
+
 
 .tb-megamenu.tb-megamenu-main-menu .collapse {
     display: inline-block;
  }
  
+.tb-megamenu{
+    background-color: transparent;
+    background-image: none;
+}
+ 
+/* Begin header */ 
 #header-top {
     overflow: visible;
 }
 
+#header {
+    border-top: 5px solid #EDEDED;
+    min-height: 50px;
+    padding: 8px 0;
+}
+
+#header .logo {
+    position: relative !important;
+    top: -16px !important;
+    left: -50px !important;
+}
+
+#header .logo {
+    margin: 0;
+    padding: 5px 0;
+    display: inline-block !important;
+}
+
+.region-header-top {
+    position: absolute !important;
+    top: 0px !important;
+}
+
+#header .container {
+    height: 50px !important;
+}
+/* End header */
+
+/* Begin Page Top */ 
+.page-top {
+    background-color: #171717 !important;
+    border-bottom: 0px solid #CCC !important;
+    border-top: 0px solid #384045 !important;
+    margin-bottom: 0px !important;
+    min-height: 50px !important;
+    padding: 20px 0 !important;
+}
+/* End Page Top */ 
+
 .mega-dropdown-menu  {
 }
 
-.tb-megamenu{
-    background-color: transparent;
-    background-image: none;
+#breadcrumbs {
+    display:none !important;
+}
+
+#breadcrumb-wrap{
+    
+    
+}
+
+.flexslider {
+    border-top:  4px solid #b6985a !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom:  4px solid #b6985a !important;
+}
+
+.main {
+    background-color: #eeeeee !important;
+}
+
+/* Begin Front page view */
+
+#block-views-front-block-1 h2{
+    color: #757575 !important; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.front-page-landing-page {
+    float: left;
+    width: 280px;
+    height: 400px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+
+.views-field-field-title-front-division {
+    color: #eeeeee;
+    background-color: #b6985a;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-field-title-front-division .field-content{
+    text-align: center
+}
+
+.views-field-field-description-front-division p {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-field-link-front-division {
+    padding-left: 20px;
+}
+
+.views-field-field-link-front-division a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+/* End Front page view */
+
+.region-after-content {
+    background-color: #FFFFFF !important;
+    height: auto;
+}
+
+/* Begin profolio page exposed filters */
+
+.views-exposed-form {
+    background-color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.views-exposed-form label{
+    font-weight: 300 !important;
+}
+
+.views-widget-filter-field_project_category_tid {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a !important;
+}
+
+.bef-checkboxes {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #757575 !important;
+    padding-left: 10px;
+}
+/* End profolio page exposed filters */
+
+
+/* Begin portfolio page view */
+.portfolio-landing-page {
+    float: left;
+    width: 280px;
+    height: 300px;    
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.views-field-title-field {
+    color: #eeeeee;
+    background-color: #b6985a;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-title {
+    padding-left: 20px;
+}
+
+.views-field-title-field .field-content{
+    text-align: center
+}
+
+
+.views-field-field-project-city, .views-field-field-project-date, .views-field-field-project-size {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-title a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+/* End portfolio page view */
+
+/* Begin division page view */
+.division-landing-page-sections {
+    float: left;
+    width: 280px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.views-field-field-division-callouts-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-title {
+    padding-left: 20px;
+}
+
+.views-field-field-division-callouts-title .field-content{
+    text-align: center
+}
+
+
+.views-field-field-division-callouts-descript {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-field-division-callouts-link {
+    padding-left: 20px;
+}
+.views-field-field-division-callouts-link a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+/* End division page view */
+
+/* Begin division page blog news view */
+
+.views-field-field-bn-call-out-image {
+    
+}
+
+.division-landing-page-blognews .views-field-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.division-landing-page-blognews a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    float: left;
+}
+
+
+.views-field-field-bn-call-out-text, .views-field-field-bn-description, .views-field views-field-title-1 {
 }
