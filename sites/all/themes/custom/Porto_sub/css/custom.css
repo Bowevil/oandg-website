@@ -1,0 +1,358 @@
+/*=======================================================================
+*** PORTO_SUB STYLE SHEET***
+========================================================================*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,300,700);
+
+body{
+    background-color: #eeeeee !important;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #757575 !important;  
+}
+
+a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+
+}
+
+/* Begin TB Menu */ 
+.tb-megamenu-main-menu .collapse, .tb-megamenu-menu-seconday-menu .collapse {
+    display: inline-block;
+ }
+ 
+.tb-megamenu{
+    background-color: transparent;
+    background-image: none;
+}
+
+#block-tb-megamenu-menu-seconday-menu {
+    z-index: 10;
+    position: relative;
+    top: 0px;
+    left:400px;
+}
+
+#block-tb-megamenu-main-menu {
+    z-index: 9;
+    position: relative;
+    top: -50px;
+}
+
+.block-tb-megamenu {
+    height: 80px;
+}
+
+.tb-megamenu .nav > li > a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+}
+
+.tb-megamenu .btn-navbar {
+  display: none;
+  float: left;
+  padding: 10px;
+}  
+/* End TB Menu */ 
+ 
+/* Begin header */ 
+#header-top {
+    overflow: visible;
+}
+
+#header {
+    height: 50px !important;
+    min-height: 75px !important;
+    padding: 0px 0  !important;
+}
+
+#header > .container {
+    height: 75px !important;
+}
+
+#header .logo {
+vertical-align: top;
+}
+
+/* End header */
+
+/* Begin Page Top */ 
+.page-top {
+    background-color: transparent !important;
+    border-bottom: 0px solid #CCC !important;
+    border-top: 0px solid #384045 !important;
+    margin-bottom: 0px !important;
+    min-height: 50px !important;
+    padding: 0px 0 !important;
+}
+
+.page-top h2{
+    border-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+/* End Page Top */ 
+
+.mega-dropdown-menu  {
+}
+
+#breadcrumbs {
+    display:none !important;
+}
+
+#breadcrumb-wrap{
+    
+}
+
+.flexslider {
+    background-color: #b6985a !important;
+    border-top:  4px solid #b6985a !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom:  4px solid #b6985a !important;
+}
+
+.flexslider .slides img{
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: auto; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main {
+    background-color: #eeeeee !important;
+}
+
+/* Begin Front page view */
+
+#block-views-front-block-1 h2{
+    color: #757575 !important; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.front-page-landing-page {
+    float: left;
+    width: 280px;
+    height: 400px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+
+.views-field-field-title-front-division {
+    color: #eeeeee;
+    background-color: #b6985a;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-field-title-front-division .field-content{
+    text-align: center
+}
+
+.views-field-field-description-front-division p {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-field-link-front-division {
+    padding-left: 20px;
+}
+
+.views-field-field-link-front-division a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+/* End Front page view */
+
+.region-after-content {
+    background-color: #FFFFFF !important;
+    height: auto;
+}
+
+.region-after-content .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #b0e0e6;
+}
+
+/* Begin profolio page exposed filters */
+
+.views-exposed-form {
+    background-color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.views-exposed-form label{
+    font-weight: 300 !important;
+}
+
+.views-widget-filter-field_project_category_tid {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a !important;
+}
+
+.bef-checkboxes {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #757575 !important;
+    padding-left: 10px;
+}
+/* End profolio page exposed filters */
+
+
+/* Begin portfolio page view */
+.portfolio-landing-page {
+    float: left;
+    width: 280px;
+    height: 300px;    
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.views-field-title-field {
+    color: #eeeeee;
+    background-color: #b6985a;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-title {
+    padding-left: 20px;
+}
+
+.views-field-title-field .field-content{
+    text-align: center
+}
+
+
+.views-field-field-project-city, .views-field-field-project-date, .views-field-field-project-size {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-title a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+/* End portfolio page view */
+
+/* Begin division page view */
+.division-landing-page-sections {
+    float: left;
+    width: 280px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.views-field-field-division-callouts-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+.views-field-title {
+    padding-left: 20px;
+}
+
+.views-field-field-division-callouts-title .field-content{
+    text-align: center
+}
+
+
+.views-field-field-division-callouts-descript {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-field-division-callouts-link {
+    padding-left: 20px;
+}
+.views-field-field-division-callouts-link a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+/* End division page view */
+
+/* Begin division page blog news view */
+
+.views-field-field-bn-call-out-image {
+    
+}
+
+.division-landing-page-blognews .views-field-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.division-landing-page-blognews a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    float: left;
+}
+/* End division page blog news view */
+
+/* Begin generic page view */
+
+.generic-page {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.generic-page .views-field-title {
+    display: none;
+}
+
+.views-field-field-generic-marketing-headline{
+    width: 400px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.views-field-field-generic-marketing-desc{
+    float: left;
+    width: 400px;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;    
+}
+.views-field-field-generic-marketing-image{
+    float: left;    
+    width: 280px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
