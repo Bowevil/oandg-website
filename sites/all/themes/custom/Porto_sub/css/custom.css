@@ -78,7 +78,7 @@ a {
 
 .tb-megamenu .dropdown-menu .active > a,
 .tb-megamenu .dropdown-menu .active > a:hover {
-	background-color: #b6985a;
+	background-color: #645431;
 	background-image: none !important;
 }
 
@@ -88,14 +88,12 @@ a {
   padding: 10px;
 }
 
-.tb-megamenu .nav li.dropdown.active > .dropdown-toggle,
-.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle,
-.tb-megamenu .nav > li.dropdown.open.active > a:hover {
-  background-color: #b6985a; 
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: transparent;
   border-color: #b6985a;
-  color: #b6985a;
 }
-
 /* End TB Menu */ 
  
 /* Begin header */ 
