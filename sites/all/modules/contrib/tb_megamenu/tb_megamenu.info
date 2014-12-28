@@ -12,8 +12,8 @@ files[] = tb_megamenu.module
 configure = admin/structure/tb-megamenu
 
 ; Information added by Drupal.org packaging script on 2014-08-15
-version = "7.x-1.0-beta3+1-dev"
+version = "7.x-1.0-beta5"
 core = "7.x"
 project = "tb_megamenu"
-datestamp = "1408099429"
+datestamp = "1408100329"
 
