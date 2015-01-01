@@ -8,6 +8,9 @@ base theme = porto
 ; Call style sheets.
 stylesheets[all][] = css/custom.css
 
+; Call JS files.
+scripts[] = js/tb_menu_hover_fix.js
+
 ; Define theme block regions.
 regions[header_top] = Header Top
 regions[header_search] = Header Search

@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,300,700);
 
+body{
+    background-color: #eeeeee !important;
+}
+
 h1 {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
@@ -20,19 +24,80 @@ p {
 a {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #ffffff !important;
-
 }
 
+/* Begin TB Menu */
 
-.tb-megamenu.tb-megamenu-main-menu .collapse {
-    display: inline-block;
+.tb-megamenu .nav-collapse.collapse {
+display: block !important;
+}
+
+.tb-megamenu-main-menu .collapse, .tb-megamenu-menu-seconday-menu .collapse {
+    display: inline-block !important;
  }
- 
+
 .tb-megamenu{
     background-color: transparent;
     background-image: none;
 }
+
+#block-tb-megamenu-menu-seconday-menu {
+    z-index: 10;
+    position: relative;
+    top: 0px;
+    left:400px;
+}
+
+#block-tb-megamenu-main-menu {
+    z-index: 9;
+    position: relative;
+    top: -50px;
+}
+
+.block-tb-megamenu {
+    height: 80px;
+}
+
+.tb-megamenu .nav > li > a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+    color: #ffffff !important;
+}
+
+.tb-megamenu .nav > li > a:hover {
+    color: #b6985a !important;
+}
+
+.tb-megamenu li > a:hover {
+    color: #b6985a !important;
+}
+
+.tb-megamenu li > a:active {
+    background-color: #b6985a !important;
+}
+
+.tb-megamenu .dropdown-menu .active > a,
+.tb-megamenu .dropdown-menu .active > a:hover {
+	background-color: #645431;
+	background-image: none !important;
+}
+
+.tb-megamenu .btn-navbar {
+  display: none;
+  float: left;
+  padding: 10px;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: transparent;
+  border-color: #b6985a;
+}
+
+/* End TB Menu */ 
  
 /* Begin header */ 
 #header-top {
@@ -40,35 +105,74 @@ a {
 }
 
 #header {
-    border-top: 5px solid #EDEDED;
-    min-height: 100px;
-    padding: 8px 0;
+    height: 50px !important;
+    min-height: 75px !important;
+    padding: 0px 0  !important;
+}
+
+#header > .container {
+    height: 75px !important;
 }
 
 #header .logo {
-    position: relative !important;
-    top: -30px !important;
+vertical-align: top;
 }
-/* End header */ 
 
+/* End header */
+
+/* Begin Page Top */ 
+.page-top {
+    background-color: transparent !important;
+    border-bottom: 0px solid #CCC !important;
+    border-top: 0px solid #384045 !important;
+    margin-bottom: 0px !important;
+    min-height: 50px !important;
+    padding: 0px 0 !important;
+}
+
+.page-top h2{
+    border-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+/* End Page Top */ 
 
 .mega-dropdown-menu  {
 }
 
 #breadcrumbs {
-    display:none !important;
+    display:block !important;
 }
 
-#breadcrumb-wrap{
-    
-    
+.breadcrumb a, .easy-breadcrumb a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;      
 }
+
+.breadcrumb-wrap h2{
+    font-weight: 400 !important;
+}
+
+.breadcrumb-wrap .col-md-12{
+    display: inline-block;
+}
+
 
 .flexslider {
+    background-color: #b6985a !important;
     border-top:  4px solid #b6985a !important;
     border-left: none !important;
     border-right: none !important;
     border-bottom:  4px solid #b6985a !important;
+}
+
+.flexslider .slides img{
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: auto; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .main {
@@ -86,6 +190,7 @@ a {
 .front-page-landing-page {
     float: left;
     width: 280px;
+    height: 400px;
     margin-right: 15px;
     margin-bottom: 15px;
     background-color: #FFFFFF;
@@ -118,6 +223,18 @@ a {
 }
 /* End Front page view */
 
+.region-after-content {
+    background-color: #FFFFFF !important;
+    height: auto;
+}
+
+.region-after-content .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: transparent;
+}
+
 /* Begin profolio page exposed filters */
 
 .views-exposed-form {
@@ -132,6 +249,7 @@ a {
 .views-widget-filter-field_project_category_tid {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
+    font-size: larger;
     color: #b6985a !important;
 }
 
@@ -141,13 +259,23 @@ a {
     color: #757575 !important;
     padding-left: 10px;
 }
+
+.form-type-bef-checkbox{
+    float: left;
+    width: 280px;
+    padding-right: 15px;
+}
+
 /* End profolio page exposed filters */
 
 
 /* Begin portfolio page view */
+
 .portfolio-landing-page {
     float: left;
     width: 280px;
+    height: 300px;
+    margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
     background-color: #FFFFFF;
@@ -159,16 +287,11 @@ a {
     padding-bottom:10px;    
 }
 
-.views-field-title {
-    padding-left: 20px;
-}
-
 .views-field-title-field .field-content{
     text-align: center
 }
 
-
-.views-field-field-project-city, .views-field-field-project-date, .views-field-field-project-size {
+.portfolio-landing-page .views-field-field-project-city, .portfolio-landing-page .views-field-field-project-date, .portfolio-landing-page .views-field-field-project-size {
     padding-left: 20px;
     padding-right: 20px;    
 }
@@ -179,4 +302,139 @@ a {
     color: #b6985a !important;
 }
 
+.portfolio-landing-page .field-content a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 20px;
+}
+
 /* End portfolio page view */
+
+
+/* Begin portfolio project single page view */
+
+.views-label-field-project-client, .views-label-field-project-city, .views-label-field-project-architect-engineer, .views-label-field-project-date, .views-label-field-project-size{
+    color: #b6985a !important; 
+}
+
+.views-field-field-project-images img{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+/* End portfolio project page view */
+
+
+/* Begin division page view */
+.division-landing-page-sections {
+    float: left;
+    width: 280px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.views-field-field-division-callouts-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+
+.views-field-field-division-callouts-title .field-content{
+    text-align: center
+}
+
+
+.views-field-field-division-callouts-descript {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.views-field-field-division-callouts-link {
+    padding-left: 20px;
+}
+.views-field-field-division-callouts-link a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+/* End division page view */
+
+/* Begin division page blog news view */
+
+.views-field-field-bn-call-out-image {
+
+}
+
+.division-landing-page-blognews .views-field-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+
+.division-landing-page-blognews a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+}
+/* End division page blog news view */
+
+
+/* Begin generic page view */
+
+.generic-page {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.generic-page .views-field-title {
+    display: none;
+}
+
+.views-field-field-generic-marketing-headline{
+    width: 400px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.views-field-field-generic-marketing-desc{
+    float: left;
+    width: 400px;
+    height: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;    
+}
+.views-field-field-generic-marketing-image{
+    float: left;    
+    width: 280px;
+    height: 270px;
+    margin-top: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+/* begin text toggle + - */
+
+.toggle-readmore {
+    color: #b6985a !important; 
+}
+
+.toggle-readmore:before {
+  display: inline-block;
+  content: "[+]";
+  text-decoration: none !important;
+  border: none;
+  padding: 1px;
+  margin: 0 5px 0 0;
+}
+
+.toggle-readmore.change:before {
+  content: "[-]";
+}
+/* end text toggle + - */
