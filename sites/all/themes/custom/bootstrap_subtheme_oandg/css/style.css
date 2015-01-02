@@ -27,7 +27,7 @@ a {
 }
 
 /* Begin TB Menu */
-
+/*
 .tb-megamenu .nav-collapse.collapse {
 display: block !important;
 }
@@ -40,22 +40,50 @@ display: block !important;
     background-color: transparent;
     background-image: none;
 }
+*/
 
-#block-tb-megamenu-menu-seconday-menu {
-    z-index: 10;
-    position: relative;
-    top: 0px;
-    left:400px;
+/* begin Booststrap tweaks */
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 
+.front-page-landing-page-container {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 5% !important;
+    padding-left: 10% !important;
+}
+
+.division-landing-page, .page-header{
+    padding-left: 10% !important;
+}
+
+/* end Booststrap tweaks */
+
+
 #block-tb-megamenu-main-menu {
-    z-index: 9;
     position: relative;
-    top: -50px;
+    left:30px;
+    background-color: red;
+
+}
+
+#block-tb-megamenu-menu-seconday-menu {
+    position: relative;
+    left: 400px;
+    background-color: blue;
 }
 
 .block-tb-megamenu {
-    height: 80px;
+   height: 20px !important;
+}
+
+.tb-megamenu .dropdown-menu {
+    top: 20px;
 }
 
 .tb-megamenu .nav > li > a {

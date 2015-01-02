@@ -31,7 +31,7 @@ function theme_tb_megamenu_admin_settings($variables) {
     }
   }
   $header = array(t('Menu Name'), t('Menu Title'));
-  $header[] = array('data' => t('Operations'), 'colspan' => 2);
+  $header[] = array('data' => t('Operations'), 'colcol-sm-' => 2);
   return theme('table', array('header' => $header, 'rows' => $rows, 'empty' => t('No MegaMenu block available. <a href="@link">Add MegaMenu Block</a>.', array('@link' => url('admin/config/user-interface/tb_megamenu/add'))), 'attributes' => array('id' => 'tb_megamenu'))) . drupal_render_children($form);
 }
 
@@ -39,7 +39,7 @@ function tb_megamenu_configure_form($form, &$form_state, $menu_names = array()) 
   if(module_exists('fontawesome') && file_exists(libraries_get_path('fontawesome') . '/css/font-awesome.css')) {
     tb_megamenu_add_css(libraries_get_path('fontawesome') . '/css/font-awesome.css');
   }
-  
+
   if(module_exists('chosen') && file_exists(libraries_get_path('chosen') . '/chosen/chosen.css')) {
     tb_megamenu_add_css(libraries_get_path('chosen') . '/chosen/chosen.css');
   }
@@ -55,14 +55,14 @@ function tb_megamenu_configure_form($form, &$form_state, $menu_names = array()) 
   }
   else {
     drupal_add_js(drupal_get_path('module', 'tb_megamenu') . '/js/chosen.jquery.js');
-  }  
+  }
   drupal_add_js('
     (function ($) {
       Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       Drupal.TBMegaMenu.ajax_link = "' . (variable_get('clean_url', 0) ? '' : '?q=') . '";
     })(jQuery);
-  ', 'inline');    
-  
+  ', 'inline');
+
   drupal_add_js(drupal_get_path('module', 'tb_megamenu') . '/js/tb-megamenu-backend.js');
   drupal_add_js(drupal_get_path('module', 'tb_megamenu') . '/js/tb-megamenu-object.js');
   if(!empty($menu_names)) {

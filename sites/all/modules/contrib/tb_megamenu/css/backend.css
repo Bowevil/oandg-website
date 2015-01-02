@@ -13,12 +13,12 @@
 
 
 /* Menu Grid ---*/
-.tb-megamenu .row-fluid + .row-fluid {
+.tb-megamenu .row + .row {
   margin-top: 10px;
   border-top: 0;
 }
 
-.tb-megamenu .row-fluid [class*="span"] {
+.tb-megamenu .row [class*="col-sm-"] {
   border: 1px dotted #ccc;
   border-radius: 3px;
   transition: all 0.1s ease 0s;
@@ -29,7 +29,7 @@
 
 
 /* The Nav ---*/
-.tb-megamenu .span12.mega-col-nav .mega-inner {
+.tb-megamenu .col-sm-12.mega-col-nav .mega-inner {
   padding: 10px;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .tb-megamenu .nav > li > a,
-.tb-megamenu .nav > li > span {
+.tb-megamenu .nav > li > col-sm- {
   border: 1px solid #ddd;
   padding: 8px 20px;
   background: #f2f2f2;
@@ -104,7 +104,7 @@
 }
 
 .tb-megamenu .mega-nav li > a,
-.tb-megamenu .mega-nav li > span {
+.tb-megamenu .mega-nav li > col-sm- {
   padding: 5px 20px 5px 10px;
   border: 1px dotted #ddd;
   border-radius: 3px;
@@ -134,7 +134,7 @@
   background: #f2f2f2;
 }
 
-.tb-megamenu .mega-group-ct > .row-fluid > [class*="span"] > .mega-inner {
+.tb-megamenu .mega-group-ct > .row > [class*="col-sm-"] > .mega-inner {
   padding: 10px;
 }
 
@@ -230,8 +230,8 @@
 }
 
 
-.tb-megamenu [class*="span"].hover .tb-block:after,
-.tb-megamenu [class*="span"].selected .tb-block:after {
+.tb-megamenu [class*="col-sm-"].hover .tb-block:after,
+.tb-megamenu [class*="col-sm-"].selected .tb-block:after {
   border-style: solid;
   border-color: #666666;
   background: #ffbb00;
@@ -260,8 +260,8 @@
 /* Hover Item ---*/
 .tb-megamenu .nav-child.hover,
 .tb-megamenu ul[class*="level"] > li > a.hover,
-.tb-megamenu ul[class*="level"] > li > span.hover,
-.tb-megamenu .row-fluid [class*="span"].hover {
+.tb-megamenu ul[class*="level"] > li > col-sm-.hover,
+.tb-megamenu .row [class*="col-sm-"].hover {
   background: #fffbf0 !important;
   color: #333333 !important;
   border: 1px solid #666666 !important;
@@ -308,12 +308,12 @@
 #tb-megamenu-admin .dropdown-menu a {
   white-space: normal;
 }
-#tb-megamenu-admin .row-fluid [class*="span"] {
+/*#tb-megamenu-admin .row [class*="col-sm-"] {
   margin-left: 2.12766%;
 }
-#tb-megamenu-admin .row-fluid [class*="span"]:first-child {
+#tb-megamenu-admin .row [class*="col-sm-"]:first-child {
   margin-left: 0;
-}
+}*/
 
 /* Fix right spacing for chzn chosen in Megamenu Admin UI */
 #tb-megamenu-admin ul.chzn-results {
@@ -355,9 +355,9 @@
 .tb-megamenu .mega-inner {
     padding: 10px 20px;
   }
-.tb-megamenu .row-fluid,
+.tb-megamenu .row,
 .tb-megamenu .mega-dropdown-menu,
-.tb-megamenu .row-fluid [class*="span"] {
+.tb-megamenu .row [class*="col-sm-"] {
     width: 100% !important;
     min-width: 100% !important;
     left: 0 !important;
@@ -368,7 +368,7 @@
     -ms-transform: none !important;
     -o-transform: none !important;
   }
-.tb-megamenu .row-fluid + .row-fluid {
+.tb-megamenu .row + .row {
     padding-top: 10px;
     border-top: 1px solid #eeeeee;
   }

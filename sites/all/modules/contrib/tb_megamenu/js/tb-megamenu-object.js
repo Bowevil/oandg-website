@@ -12,21 +12,21 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
   Drupal.TBMegaMenu.isLockedAjax = function() {
     return Drupal.TBMegaMenu.lockedAjax;
   }
-  
+
   Drupal.TBMegaMenu.releaseAjax = function() {
     Drupal.TBMegaMenu.lockedAjax = false;
   }
-  
+
   $.fn.megamenuAdmin = function (options) {
     var defaultOptions = {};
     var options = $.extend(defaultOptions, options);
     megamenu = $(this).find('.tb-megamenu');
     nav_items = megamenu.find('ul[class*="level"]>li>:first-child');
     nav_subs = megamenu.find('.nav-child');
-    nav_cols = megamenu.find('[class*="span"]');
+    nav_cols = megamenu.find('[class*="col-sm-"]');
 
     nav_all = nav_items.add(nav_subs).add(nav_cols);
-    nav_items.each (function () {      
+    nav_items.each (function () {
       var a = $(this);
       var liitem = a.closest('li');
       if (liitem.attr('data-hidesub') == 1) {
@@ -36,14 +36,14 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         liitem.removeClass('dropdown dropdown-submenu mega');
       }
     });
-    
+
     hide_toolbox(true);
     bindEvents (nav_all);
     $('.toolbox-action, .toolbox-toggle, .toolbox-input').unbind ("focus blur click change keydown");
     $('.tb-megamenu-admin-mm-row').click (function(event) {
       event.stopPropagation();
     });
-    
+
     $(document.body).click (function(event) {
       hide_toolbox (true);
     });
@@ -70,7 +70,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       event.stopPropagation();
       return false;
     });
-    
+
     $('.toolbox-input').bind ('focus blur click', function(event) {
       event.stopPropagation();
       return false;
@@ -106,8 +106,8 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       if (sub.length == 0) {
         var column = Drupal.TBMegaMenu.TBElementsCounter['column'] + 1;
         Drupal.TBMegaMenu.TBElementsCounter['column'] ++;
-        sub = $('<div class="tb-megamenu-submenu nav-child dropdown-menu mega-dropdown-menu"><div class="row-fluid"><div id=tb-megamenu-column-' + column + ' class="span12" data-width="12"><div class="mega-inner"></div></div></div></div>').appendTo(liitem);
-        bindEvents (sub.find ('[class*="span"]'));
+        sub = $('<div class="tb-megamenu-submenu nav-child dropdown-menu mega-dropdown-menu"><div class="row"><div id=tb-megamenu-column-' + column + ' class="col-sm-12" data-width="12"><div class="mega-inner"></div></div></div></div>').appendTo(liitem);
+        bindEvents (sub.find ('[class*="col-sm-"]'));
         liitem.addClass ('mega');
       }
       else {
@@ -158,7 +158,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     else {
       update_toggle (toggle, 1);
       toggle.attr('data-always-show-submenu', 1);
-    }      
+    }
   }
 
   actions.showBlockTitle = function() {
@@ -225,10 +225,10 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       if (parseInt(currentSelected.attr('data-hidewcol'))) {
         currentSelected.attr('data-hidewcol', 0);
         currentSelected.removeClass ('hidden-collapse');
-      } 
+      }
       else {
         currentSelected.attr('data-hidewcol', 1);
-        currentSelected.addClass ('hidden-collapse');      
+        currentSelected.addClass ('hidden-collapse');
       }
     }
     update_toolbox ();
@@ -238,10 +238,10 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     var liitem = currentSelected.closest ('li');
     liitem.removeClass ('mega-align-left mega-align-center mega-align-right mega-align-justify').addClass ('mega-align-'+actions.datas.align);
     if (actions.datas.align == 'justify') {
-      currentSelected.addClass('span12');
+      currentSelected.addClass('col-sm-12');
       currentSelected.css('width', '');
     } else {
-      currentSelected.removeClass('span12');
+      currentSelected.removeClass('col-sm-12');
       if (currentSelected.attr('data-width')) {
         currentSelected.css('width', currentSelected.attr('data-width'));
       }
@@ -257,13 +257,13 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     var $item = currentSelected.closest('li'),
     $liparent = $item.parent().closest('li'),
     level = $liparent.attr('data-level'),
-    $col = $item.closest ('[class*="span"]'),
+    $col = $item.closest ('[class*="col-sm-"]'),
     $items = $col.find ('ul:first > li'),
     itemidx = $items.index ($item),
     $moveitems = $items.slice (0, itemidx+1),
     itemleft = $items.length - $moveitems.length,
     $rows = $col.parent().parent().children ('[class*="row"]'),
-    $cols = $rows.children('[class*="span"]').filter (function(){return !$(this).attr('data-block')}),
+    $cols = $rows.children('[class*="col-sm-"]').filter (function(){return !$(this).attr('data-block')}),
     colidx = $cols.index ($col);
     if (!$liparent.length) {
       return ;
@@ -274,7 +274,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       currentSelected = $col;
       actions.datas.addfirst = true;
       actions.addColumn ();
-      $cols = $rows.children('[class*="span"]').filter (function(){return !$(this).attr('data-block')});
+      $cols = $rows.children('[class*="col-sm-"]').filter (function(){return !$(this).attr('data-block')});
       currentSelected = oldSelected;
       colidx++;
     }
@@ -297,13 +297,13 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     var $item = currentSelected.closest('li'),
     $liparent = $item.parent().closest('li'),
     level = $liparent.attr('data-level'),
-    $col = $item.closest ('[class*="span"]'),
+    $col = $item.closest ('[class*="col-sm-"]'),
     $items = $col.find ('ul:first > li'),
     itemidx = $items.index ($item),
     $moveitems = $items.slice (itemidx),
     itemleft = $items.length - $moveitems.length,
     $rows = $col.parent().parent().children ('[class*="row"]'),
-    $cols = $rows.children('[class*="span"]').filter (function(){
+    $cols = $rows.children('[class*="col-sm-"]').filter (function(){
       return $(this).children('.mega-inner').children('.tb-megamenu-block').length == 0;
     });
 
@@ -317,7 +317,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       currentSelected = $col;
       actions.datas.addfirst = false;
       actions.addColumn ();
-      $cols = $rows.children('[class*="span"]').filter (function(){
+      $cols = $rows.children('[class*="col-sm-"]').filter (function(){
         return $(this).children('.mega-inner').children('.tb-megamenu-block').length == 0;
       }),
       currentSelected = oldSelected;
@@ -340,7 +340,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     }
     var column = Drupal.TBMegaMenu.TBElementsCounter['column'] + 1;
     Drupal.TBMegaMenu.TBElementsCounter['column'] ++;
-    var $row = $('<div class="row-fluid"><div id=tb-megamenu-column-' + column + ' class="span12"><div class="mega-inner"></div></div></div>').appendTo(currentSelected.find('[class*="row"]:first').parent()),
+    var $row = $('<div class="row"><div id=tb-megamenu-column-' + column + ' class="col-sm-12"><div class="mega-inner"></div></div></div>').appendTo(currentSelected.find('[class*="row"]:first').parent()),
     $col = $row.children();
     bindEvents ($col);
     currentSelected = null;
@@ -351,7 +351,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     if (!currentSelected) {
       return ;
     }
-    var $cols = currentSelected.parent().children('[class*="span"]');
+    var $cols = currentSelected.parent().children('[class*="col-sm-"]');
     var colcount = $cols.length + 1;
     var colwidths = defaultColumnsWidth (colcount);
 
@@ -359,7 +359,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     Drupal.TBMegaMenu.TBElementsCounter['column'] ++;
 
     var $col = $('<div id=tb-megamenu-column-' + column + '><div class="mega-inner"></div></div>');
-    if (actions.datas.addfirst) { 
+    if (actions.datas.addfirst) {
       $col.prependTo (currentSelected.parent());
     }
     else {
@@ -368,7 +368,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     $cols = $cols.add ($col);
     bindEvents ($col);
     $cols.each (function (i) {
-      $(this).removeClass ('span'+$(this).attr('data-width')).addClass('span'+colwidths[i]).attr('data-width', colwidths[i]);
+      $(this).removeClass ('col-sm-'+$(this).attr('data-width')).addClass('col-sm-'+colwidths[i]).attr('data-width', colwidths[i]);
     });
     show_toolbox ($col);
   }
@@ -381,10 +381,10 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     var $col = currentSelected,
       $row = $col.parent(),
       $rows = $row.parent().children ('[class*="row"]'),
-      $allcols = $rows.children('[class*="span"]'),
+      $allcols = $rows.children('[class*="col-sm-"]'),
       $allmenucols = $allcols.filter (function(){return !$(this).attr('data-block')}),
       $haspos = $allcols.filter (function(){return $(this).attr('data-block')}).length,
-      $cols = $row.children('[class*="span"]'),
+      $cols = $row.children('[class*="col-sm-"]'),
       colcount = $cols.length - 1,
       colwidths = defaultColumnsWidth (colcount),
       type_menu = $col.attr('data-block') ? false : true;
@@ -394,7 +394,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       console.log($(currentSelected).closest('.tb-megamenu-item'));
       currentSelected = $(currentSelected).closest('.tb-megamenu-item')
       currentSelected.find('.tb-megamenu-submenu').remove();
-      
+
     } // if this is the only one column left
     else {
       if (type_menu) {
@@ -402,7 +402,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         tocol = colidx == 0 ? $allmenucols[1] : $allmenucols[colidx-1];
 
         $col.find ('ul:first > li').appendTo ($(tocol).find('ul:first'));
-      } 
+      }
 
       var colidx = $allcols.index($col),
         nextActiveCol = colidx == 0 ? $allcols[1] : $allcols[colidx-1];
@@ -412,7 +412,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       } else {
         $cols = $cols.not ($col);
         $cols.each (function (i) {
-          $(this).removeClass ('span'+$(this).attr('data-width')).addClass('span'+colwidths[i]).attr('data-width', colwidths[i]);
+          $(this).removeClass ('col-sm-'+$(this).attr('data-width')).addClass('col-sm-'+colwidths[i]).attr('data-width', colwidths[i]);
         });
         $col.remove();
       }
@@ -436,9 +436,9 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       data: { 'action': 'load', 'menu_name': options['menu_name']},
       complete: function( msg ) {
         $('#tb-megamenu-admin-mm-container').html(msg.responseText).megamenuAdmin({'menu_name': options['menu_name']});
-        $('#tb-megamenu-admin-mm-container').find('.mega-inner').children('span.close').click(function() {
+        $('#tb-megamenu-admin-mm-container').find('.mega-inner').children('col-sm-.close').click(function() {
           $(this).parent().html("");
-        });        
+        });
         $('#tb-megamenu-admin-mm-tb #toolbox-loading').hide();
         $('#tb-megamenu-admin-mm-tb #toolbox-message').html(Drupal.t("All unsaved changed has been reseted!")).show();
         window.setTimeout(function() {
@@ -467,7 +467,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       var $sub = $this.find ('.nav-child:first');
       var $rows = $sub.find('[class*="row"]:first').parent().children('[class*="row"]');
       $rows.each (function () {
-        var $cols = $(this).children('[class*="span"]');
+        var $cols = $(this).children('[class*="col-sm-"]');
         var cols = [];
         $cols.each (function(){
           var col_config = {};
@@ -575,11 +575,11 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     megamenu.find ('ul[class*="level"] > li').each (function(){
       if (!$(this).has (currentSelected).length > 0) $(this).removeClass ('open');
       else $(this).addClass ('open');
-    });    
+    });
 
     // set selected
     megamenu.data('nav_all').removeClass ('selected');
-    currentSelected.addClass ('selected');    
+    currentSelected.addClass ('selected');
     var type = toolbox_type ();
     $('#tb-megamenu-admin-mm-tool' + type).show();
     update_toolbox (type);
@@ -606,7 +606,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         toggle.find('label').removeClass('active btn-success btn-danger btn-primary');
         if (parseInt(liitem.attr('data-group'))) {
           $('.toolitem-sub').addClass ('disabled');
-        } 
+        }
         else if (sub.length == 0 || sub.css('display') == 'none') {
           update_toggle (toggle, 0);
         }
@@ -623,7 +623,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
           update_toggle (toggle, 1);
         }
         else {
-          update_toggle (toggle, 0);        
+          update_toggle (toggle, 0);
         }
 
         if (!liparent.length || !liparent.hasClass('mega')) {
@@ -644,14 +644,14 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
           if (parseInt(liitem.attr('data-level')) > 1) {
             $('.toolsub-align-center').addClass ('disabled');
             $('.toolsub-align-justify').addClass ('disabled');
-          } 
+          }
 
           if (liitem.attr('data-alignsub')) {
             $('.toolsub-align-'+liitem.attr('data-alignsub')).addClass ('active');
             if (liitem.attr('data-alignsub') == 'justify') {
               $('.toolsub-width').addClass ('disabled');
             }
-          }          
+          }
         }
 
         var toggle = $('.toolsub-hidewhencollapse');
@@ -661,7 +661,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         }
         else {
           update_toggle (toggle, 0);
-        }  
+        }
         break;
 
       case 'col':
@@ -674,7 +674,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         if (currentSelected.parent().children().length == 1) {
           $('.toolcol-width').parent().addClass ('disabled');
         }
-        
+
 
         var toggle = $('.toolcol-hidewhencollapse');
         toggle.find('label').removeClass('active btn-success btn-danger btn-primary');
@@ -683,7 +683,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         }
         else {
           update_toggle (toggle, 0);
-        }  
+        }
         var toggle = $('.toolcol-showblocktitle');
         toggle.find('label').removeClass('active btn-success btn-danger btn-primary');
         if (!currentSelected.attr('data-showblocktitle') || parseInt(currentSelected.attr('data-showblocktitle'))) {
@@ -691,7 +691,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         }
         else {
           update_toggle (toggle, 0);
-        }  
+        }
         break;
     }
   }
@@ -703,7 +703,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
   }
 
   apply_toolbox = function (input) {
-    var name = $(input).attr('data-name'), 
+    var name = $(input).attr('data-name'),
     value = input.value,
     type = toolbox_type ();
     switch (name) {
@@ -715,7 +715,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
           currentSelected.width(value);
         }
         if (type == 'col') {
-          currentSelected.removeClass('span'+currentSelected.attr('data-' + name));
+          currentSelected.removeClass('col-sm-'+currentSelected.attr('data-' + name));
         }
         currentSelected.attr('data-' + name, value);
       }
@@ -724,25 +724,25 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
           currentSelected.width(value);
         }
         if (type == 'col') {
-          currentSelected.removeClass('span'+currentSelected.attr('data-' + name)).addClass ('span'+value);
+          currentSelected.removeClass('col-sm-'+currentSelected.attr('data-' + name)).addClass ('col-sm-'+value);
         }
         currentSelected.attr('data-' + name, value);
       }
       $(input).val(value);
       break;
-    case 'duration': 
+    case 'duration':
       value = parseInt(value);
       if(isNaN(value)) {
         value = "";
       }
-      $(input).val(value);        
+      $(input).val(value);
       break;
-    case 'delay': 
+    case 'delay':
       value = parseInt(value);
       if(isNaN(value)) {
         value = "";
       }
-      $(input).val(value);        
+      $(input).val(value);
       break;
     case 'class':
       if (type == 'item') {
@@ -767,7 +767,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     case 'caption':
       if (type == 'item') {
         currentSelected.closest('li').attr('data-' + name, value);
-        currentSelected.find('span.mega-caption').remove();
+        currentSelected.find('col-sm-.mega-caption').remove();
         if (value) {
           currentSelected.append($('<span class="mega-caption">'+value+'</span>'));
         }
@@ -788,7 +788,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       break;
     }
   }
-  
+
   callAjax = function(data) {
     if(Drupal.TBMegaMenu.isLockedAjax()) {
       window.setTimeout(function() {
@@ -811,7 +811,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
             var currentElement = $("#" + id);
             if(currentElement.length) {
               currentElement.children('.mega-inner').html("").append(close_button).append($(content)).find(':input').removeAttr('name');
-              currentElement.children('.mega-inner').children('span.close').click(function() {
+              currentElement.children('.mega-inner').children('col-sm-.close').click(function() {
                 $(this).parent().html("");
               });
             }
@@ -826,7 +826,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
       break;
     }
   }
-  
+
   defaultColumnsWidth = function (count) {
     if (count < 1) {
       return null;
@@ -842,7 +842,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
   }
 
   bindEvents = function (els) {
-    if (megamenu.data('nav_all')) 
+    if (megamenu.data('nav_all'))
       megamenu.data('nav_all', megamenu.data('nav_all').add(els));
     else
       megamenu.data('nav_all', els);
@@ -861,7 +861,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
 
     els.click (function(event){
       show_toolbox ($(this));
-      event.stopPropagation();        
+      event.stopPropagation();
       return false;
     });
   }
@@ -932,7 +932,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
             .removeClass('active btn-success btn-danger btn-primary');
 
           label.addClass('active ' + (input.val() == '' ? 'btn-primary' : (input.val() == 0 ? 'btn-danger' : 'btn-success')));
-          
+
           input.attr('checked', true).trigger('change');
         }
       });

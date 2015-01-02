@@ -23,7 +23,7 @@
 .tb-megamenu .mega-inner:after {
   clear: both;
 }
-.tb-megamenu .row-fluid + .row-fluid {
+.tb-megamenu .row + .row {
   padding-top: 10px;
   border-top: 1px solid #eeeeee;
 }
@@ -82,10 +82,10 @@
 .tb-megamenu .mega-group-ct:after {
   clear: both;
 }
-.tb-megamenu .mega-group-ct > .row-fluid > [class*="span"] > .mega-inner {
+.tb-megamenu .mega-group-ct > .row > [class*="col-sm-"] > .mega-inner {
   padding: 0;
 }
-.tb-megamenu .span12.mega-col-nav .mega-inner {
+.tb-megamenu .col-sm-12.mega-col-nav .mega-inner {
   padding: 10px;
 }
 .tb-megamenu .mega-nav,
@@ -131,8 +131,8 @@
 .tb-megamenu .nav > .dropdown > .dropdown-toggle .caret {
   display: inline-block;
 }
-.tb-megamenu .nav [class^="icon-"],
-.tb-megamenu .nav [class*=" icon-"] {
+.tb-megamenu .nav [class^="fa"],
+.tb-megamenu .nav [class*=" fa-"] {
   margin-right: 5px;
 }
 
@@ -350,7 +350,7 @@
   margin-left: 0;
   top: auto;
 }
-.tb-megamenu .mega-align-justify > .dropdown-menu.span12 {
+.tb-megamenu .mega-align-justify > .dropdown-menu.col-sm-12 {
   width: 100%;
 }
 .tb-megamenu .mega-caption {
@@ -862,7 +862,7 @@
 .tb-megamenu .navbar .nav > li > a {
 		padding: 6px;
 	}
-.tb-megamenu .container-fluid {
+.tb-megamenu .container {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -879,7 +879,7 @@
 		position: static;
 		width: auto;
 	}
-.tb-megamenu .container-fluid {
+.tb-megamenu .container {
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -915,8 +915,8 @@
 		padding: 5px;
 	}
 .tb-megamenu .btn-group.divider,
-.tb-megamenu .header .row-fluid .span3,
-.tb-megamenu .header .row-fluid .span7,
+.tb-megamenu .header .row .col-sm-3,
+.tb-megamenu .header .row .col-sm-7,
 .tb-megamenu .subhead-collapse {
 		display: none;
 	}
@@ -970,7 +970,7 @@
 	}
 .tb-megamenu .nav-collapse .nav li a {
 		margin-bottom: 0;
-		border-top: 1px solid #d9d9d9;		
+		border-top: 1px solid #d9d9d9;
 	}
 .tb-megamenu .nav-collapse .nav li ul li ul.dropdown-menu,
 .tb-megamenu .nav-collapse .nav li ul li:hover ul.dropdown-menu,
@@ -978,7 +978,7 @@
 		display: none !important;
 	}
 .tb-megamenu .nav-collapse .nav > li > a,
-.tb-megamenu .nav-collapse .dropdown-menu a {			
+.tb-megamenu .nav-collapse .dropdown-menu a {
 		-webkit-border-radius: 0;
 		-moz-border-radius: 0;
 		border-radius: 0;

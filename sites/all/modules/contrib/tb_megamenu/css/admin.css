@@ -112,8 +112,8 @@
   color: #999999;
 }
 
-#tb-megamenu-admin-mm-tb .btn [class^="icon-"],
-#tb-megamenu-admin-mm-tb .btn [class*=" icon-"] {
+#tb-megamenu-admin-mm-tb .btn [class^="fa"],
+#tb-megamenu-admin-mm-tb .btn [class*=" fa-"] {
   margin-right: 0;
 }
 
@@ -194,8 +194,8 @@
   margin-left: 20px;
 }
 
-.tb-megamenu .btn [class^="icon-"],
-.tb-megamenu .btn [class*=" icon-"] {
+.tb-megamenu .btn [class^="fa"],
+.tb-megamenu .btn [class*=" fa-"] {
   line-height: 1;
   margin-right: 5px;
   font-size: 14px;
@@ -206,12 +206,12 @@
 }
 
 /* Loading */
-#tb-megamenu-admin-tb-recompile .icon-loading,
-#tb-megamenu-admin-tb-recompile.loading .icon-check {
+#tb-megamenu-admin-tb-recompile .fa-loading,
+#tb-megamenu-admin-tb-recompile.loading .fa-check {
   display: none;
 }
 
-#tb-megamenu-admin-tb-recompile.loading .icon-loading {
+#tb-megamenu-admin-tb-recompile.loading .fa-loading {
   display: inline-block;
   background: url(../images/loading.gif) no-repeat !important;
   width: 14px;
@@ -230,7 +230,7 @@
   -o-box-sizing: border-box;
   background: #eee;
   border-bottom: 1px solid #e6e6e6;
-  border-top: 1px solid #e6e6e6; 
+  border-top: 1px solid #e6e6e6;
 }
 
 .tb-megamenu .admin-inline-toolbox ul {
@@ -256,7 +256,7 @@
 /* ADMIN FORMS
 ---------------------------------------------------*/
 /* Reset --- */
-.tb-megamenu form label, form span.faux-label,
+.tb-megamenu form label, form col-sm-.faux-label,
 .tb-megamenu input#jform_title, input#jform_leveltitle, input#jform_grouptitle {
   font-size: 100%;
 }
@@ -362,7 +362,7 @@
   color: #999;
 }
 
-.tb-megamenu .chzn-container-single .chzn-single span {
+.tb-megamenu .chzn-container-single .chzn-single col-sm- {
   margin-right: 26px;
 }
 
@@ -464,7 +464,7 @@
   z-index: 1;
 }
 
-.tb-megamenu .chzn-container .chzn-results-scroll span {
+.tb-megamenu .chzn-container .chzn-results-scroll col-sm- {
   display: inline-block;
   height: 17px;
   text-indent: -5000px;
@@ -475,11 +475,11 @@
   bottom: 0;
 }
 
-.tb-megamenu .chzn-container .chzn-results-scroll-down span {
+.tb-megamenu .chzn-container .chzn-results-scroll-down col-sm- {
   background-position: -4px -3px;
 }
 
-.tb-megamenu .chzn-container .chzn-results-scroll-up span {
+.tb-megamenu .chzn-container .chzn-results-scroll-up col-sm- {
   background-position: -22px -3px;
 }
 /* @end */
@@ -521,12 +521,12 @@
 /* @end */
 
 /* Fix for Font Awesome */
-.tb-megamenu [class^="icon-"]:before,
-.tb-megamenu [class*=" icon-"]:before {
+.tb-megamenu [class^="fa"]:before,
+.tb-megamenu [class*=" fa-"]:before {
   font-family: "FontAwesome";
 }
 
-.tb-megamenu .icon-eye-open:before,
-.tb-megamenu .icon-eye:before {
+.tb-megamenu .fa-eye-open:before,
+.tb-megamenu .fa-eye:before {
   content: "\f06e";
 }

@@ -13,7 +13,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
           else {
             event.preventDefault();
             $item.addClass('tb-megamenu-clicked');
-            if(!tbitem.hasClass('open')){	
+            if(!tbitem.hasClass('open')){
               tbitem.addClass('open');
             }
           }
@@ -23,13 +23,13 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
         });
      });
      /*
-     items.children('a').children('span.caret').each( function() {
+     items.children('a').children('col-sm-.caret').each( function() {
 	var $item = $(this).parent();
         $item.click(function(event){
           tbitem = $item.parent();
           if ($item.hasClass('tb-megamenu-clicked')) {
             Drupal.TBMegaMenu.eventStopPropagation(event);
-            if(tbitem.hasClass('open')){	
+            if(tbitem.hasClass('open')){
               tbitem.removeClass('open');
               $item.removeClass('tb-megamenu-clicked');
             }
@@ -37,7 +37,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
           else {
             Drupal.TBMegaMenu.eventStopPropagation(event);
             $item.addClass('tb-megamenu-clicked');
-            if(!tbitem.hasClass('open')){	
+            if(!tbitem.hasClass('open')){
               tbitem.addClass('open');
               $item.removeClass('tb-megamenu-clicked');
             }
@@ -46,7 +46,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
      });
      */
   }
-  
+
   Drupal.TBMegaMenu.eventStopPropagation = function(event) {
     if (event.stopPropagation) {
       event.stopPropagation();
@@ -54,7 +54,7 @@ Drupal.TBMegaMenu = Drupal.TBMegaMenu || {};
     else if (window.event) {
       window.event.cancelBubble = true;
     }
-  }  
+  }
   Drupal.behaviors.tbMegaMenuTouchAction = {
     attach: function(context) {
       var isTouch = 'ontouchstart' in window && !(/hp-tablet/gi).test(navigator.appVersion);
