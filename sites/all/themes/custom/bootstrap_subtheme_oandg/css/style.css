@@ -443,6 +443,10 @@ vertical-align: top;
 
 .generic-page {
     float: left;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;    
     margin-right: 15px;
     margin-bottom: 15px;
 }
