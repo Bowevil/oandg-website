@@ -26,7 +26,6 @@ a {
     font-weight: 300 !important;
 }
 
-/* Begin TB Menu */
 /*
 .tb-megamenu .nav-collapse.collapse {
 display: block !important;
@@ -54,7 +53,7 @@ display: block !important;
 .front-page-landing-page-container {
     margin: 0 auto;
     width: 100%;
-    padding-right: 5% !important;
+    padding-right: 10% !important;
     padding-left: 10% !important;
 }
 
@@ -62,20 +61,32 @@ display: block !important;
     padding-left: 10% !important;
 }
 
+.navbar{
+    margin-bottom: 0px;
+}
+
 /* end Booststrap tweaks */
 
-
+/* Begin TB Menu */
 #block-tb-megamenu-main-menu {
     position: relative;
-    left:30px;
-    background-color: red;
-
+    width: 500px;    
+    top: 40px;
+    left:15%;
+    background-color: transparent;
 }
 
 #block-tb-megamenu-menu-seconday-menu {
     position: relative;
-    left: 400px;
-    background-color: blue;
+    width: 400px;
+    top: -10px;
+    left: 60%;
+    background-color: transparent;
+}
+
+.tb-megamenu-main-menu .items-4, .tb-megamenu-menu-seconday-menu .items-3 {
+    position: absolute;
+    left: 0px;
 }
 
 .block-tb-megamenu {
@@ -146,6 +157,10 @@ display: block !important;
 vertical-align: top;
 }
 
+.navbar .logo{
+    padding-left: 15px;
+}
+
 /* End header */
 
 /* Begin Page Top */ 
@@ -165,9 +180,8 @@ vertical-align: top;
 
 /* End Page Top */ 
 
-.mega-dropdown-menu  {
-}
-
+/* Begin breadcrumbs */
+/*
 #breadcrumbs {
     display:block !important;
 }
@@ -186,7 +200,10 @@ vertical-align: top;
     display: inline-block;
 }
 
+*/
+/* End breadcrumbs */
 
+/* Begin flexslider */
 .flexslider {
     background-color: #b6985a !important;
     border-top:  4px solid #b6985a !important;
@@ -203,9 +220,8 @@ vertical-align: top;
     margin-left: auto;
 }
 
-.main {
-    background-color: #eeeeee !important;
-}
+
+/* End flexslider */
 
 /* Begin Front page view */
 
@@ -251,19 +267,15 @@ vertical-align: top;
 }
 /* End Front page view */
 
-.region-after-content {
-    background-color: #FFFFFF !important;
-    height: auto;
-}
-
-.region-after-content .content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    background-color: transparent;
-}
 
 /* Begin profolio page exposed filters */
+
+.not-front .view-showcase{
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
 
 .views-exposed-form {
     background-color: #FFFFFF;
@@ -286,12 +298,27 @@ vertical-align: top;
     font-weight: 300 !important;
     color: #757575 !important;
     padding-left: 10px;
+    background-color: red;
 }
 
 .form-type-bef-checkbox{
     float: left;
-    width: 280px;
-    padding-right: 15px;
+    width: 300px;
+    padding-right: 10px;
+}
+
+.form-control{
+    display: inline;
+    width: 20px;
+    height: 34px;
+    padding: 0px 0px;
+    font-size: inherit;
+    line-height: 1.428571429;
+    color: #ffffff;
+    vertical-align: bottom;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
 }
 
 /* End profolio page exposed filters */
