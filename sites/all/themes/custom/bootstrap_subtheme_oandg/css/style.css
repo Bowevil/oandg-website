@@ -7,12 +7,22 @@ body{
 h1 {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
+    color: #b6985a !important;
+    font-size:xx-large;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
+    font-size:xx-large;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    font-size:medium;
 }
 
 p {
@@ -50,14 +60,8 @@ display: block !important;
     padding-left: 0px !important;
 }
 
-.front-page-landing-page-container {
-    margin: 0 auto;
-    width: 100%;
-    padding-right: 10% !important;
-    padding-left: 10% !important;
-}
-
 .division-landing-page, .page-header{
+    padding-top: 15px;
     padding-left: 10% !important;
 }
 
@@ -70,10 +74,10 @@ display: block !important;
 /* Begin TB Menu */
 #block-tb-megamenu-main-menu {
     position: relative;
-    width: 500px;    
+    width: 600px;    
     top: 40px;
     left:15%;
-    background-color: transparent;
+    background-color: blue;
 }
 
 #block-tb-megamenu-menu-seconday-menu {
@@ -81,7 +85,7 @@ display: block !important;
     width: 400px;
     top: -10px;
     left: 60%;
-    background-color: transparent;
+    background-color: green;
 }
 
 .tb-megamenu-main-menu .items-4, .tb-megamenu-menu-seconday-menu .items-3 {
@@ -93,6 +97,9 @@ display: block !important;
    height: 20px !important;
 }
 
+.tb-megamenu-row .row {
+    /* margin-left: 0px; */
+}
 .tb-megamenu .dropdown-menu {
     top: 20px;
 }
@@ -154,11 +161,11 @@ display: block !important;
 }
 
 #header .logo {
-vertical-align: top;
+    vertical-align: top;
 }
 
 .navbar .logo{
-    padding-left: 15px;
+    padding-left: 70px;
 }
 
 /* End header */
@@ -231,11 +238,23 @@ vertical-align: top;
     text-transform: uppercase;
 }
 
+.front-page-landing-page-container {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15%;
+    padding-right: 10%;    
+}
+
 .front-page-landing-page {
     float: left;
-    width: 280px;
-    height: 400px;
-    margin-right: 15px;
+    /* width: 280px; */
+    min-width: 240px;
+    max-width: 280px;
+    width: 30%;
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 15px;
     background-color: #FFFFFF;
 }
@@ -247,11 +266,17 @@ vertical-align: top;
     padding-bottom:10px;    
 }
 
+.views-field-field-image-front-division img {
+    width: 100%;
+    height: 100%;
+}
+
 .views-field-field-title-front-division .field-content{
     text-align: center
 }
 
 .views-field-field-description-front-division p {
+    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;    
 }
@@ -328,18 +353,27 @@ vertical-align: top;
 
 .portfolio-landing-page {
     float: left;
-    width: 280px;
+    min-width: 240px;
+    max-width: 280px;
+    width: 30%;    
     height: 300px;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-bottom: 15px;
     background-color: #FFFFFF;
 }
+
+.views-field-field-project-showcase-image img {
+    width: 100%;
+    height: 100%;
+}
+
 .views-field-title-field {
     color: #eeeeee;
     background-color: #b6985a;
     padding-top:10px;
-    padding-bottom:10px;    
+    padding-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .views-field-title-field .field-content{
@@ -350,6 +384,7 @@ vertical-align: top;
     padding-left: 20px;
     padding-right: 20px;    
 }
+
 
 .views-field-title a {
     font-family: 'Open Sans', sans-serif !important;
@@ -376,6 +411,15 @@ vertical-align: top;
 .views-field-field-project-images img{
     margin-left: 10px;
     margin-bottom: 15px;
+}
+
+.col-centered{
+    padding-top:15px;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+    background-color: green;
 }
 /* End portfolio project page view */
 
@@ -481,7 +525,8 @@ vertical-align: top;
 /* begin text toggle + - */
 
 .toggle-readmore {
-    color: #b6985a !important; 
+    color: #b6985a !important;
+    cursor:pointer;
 }
 
 .toggle-readmore:before {
@@ -489,8 +534,6 @@ vertical-align: top;
   content: "[+]";
   text-decoration: none !important;
   border: none;
-  padding: 1px;
-  margin: 0 5px 0 0;
 }
 
 .toggle-readmore.change:before {

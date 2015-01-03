@@ -163,6 +163,10 @@
 
   </div>
 </div>
+        <div class="row">
+          <div class="col-centered">
+            <?php print render($page['after_content']); ?></div>
+        </div>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
 </footer>
