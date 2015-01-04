@@ -36,20 +36,6 @@ a {
     font-weight: 300 !important;
 }
 
-/*
-.tb-megamenu .nav-collapse.collapse {
-display: block !important;
-}
-
-.tb-megamenu-main-menu .collapse, .tb-megamenu-menu-seconday-menu .collapse {
-    display: inline-block !important;
- }
-
-.tb-megamenu{
-    background-color: transparent;
-    background-image: none;
-}
-*/
 
 /* begin Booststrap tweaks */
 
@@ -69,39 +55,16 @@ display: block !important;
     margin-bottom: 0px;
 }
 
-/* end Booststrap tweaks */
-
-/* Begin TB Menu */
-#block-tb-megamenu-main-menu {
-    position: relative;
-    width: 600px;    
-    top: 40px;
-    left:15%;
-    background-color: blue;
+.region-sidebar-second{
+    padding-top: 25%;
 }
 
-#block-tb-megamenu-menu-seconday-menu {
-    position: relative;
-    width: 400px;
-    top: -10px;
-    left: 60%;
-    background-color: green;
-}
+/* end  Booststrap tweaks */
+
+/* begin tb-megamenu core css */
 
 .tb-megamenu-main-menu .items-4, .tb-megamenu-menu-seconday-menu .items-3 {
-    position: absolute;
-    left: 0px;
-}
-
-.block-tb-megamenu {
-   height: 20px !important;
-}
-
-.tb-megamenu-row .row {
-    /* margin-left: 0px; */
-}
-.tb-megamenu .dropdown-menu {
-    top: 20px;
+    position: relative;
 }
 
 .tb-megamenu .nav > li > a {
@@ -143,7 +106,10 @@ display: block !important;
   border-color: #b6985a;
 }
 
-/* End TB Menu */ 
+/* end tb-megamenu core css */
+
+/* end Booststrap tweaks */
+ 
  
 /* Begin header */ 
 #header-top {
@@ -409,17 +375,20 @@ display: block !important;
 }
 
 .views-field-field-project-images img{
-    margin-left: 10px;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
     margin-bottom: 15px;
+}
+.views-field-field-project-images .field-content {
+    color: #eeeeee;
 }
 
 .col-centered{
     padding-top:15px;
     margin: 0 auto;
     width: 100%;
-    padding-right: 10% !important;
-    padding-left: 10% !important;
-    background-color: green;
+    background-color: transparent;
 }
 /* End portfolio project page view */
 
@@ -540,3 +509,84 @@ display: block !important;
   content: "[-]";
 }
 /* end text toggle + - */
+
+/* begin media Queries */
+
+@media(max-width:767px){}
+@media(min-width:768px){
+    .block-tb-megamenu {
+   height: 20px !important;
+}
+    .tb-megamenu .dropdown-menu {
+    top: 20px;
+} 
+    #block-tb-megamenu-main-menu {
+    float: right;
+    z-index: 1;
+    position: relative;
+    width: 550px;    
+    top: 40px;
+    background-color: blue;
+}
+
+    #block-tb-megamenu-menu-seconday-menu {
+    z-index: 1;
+    float: right;    
+    position: relative;
+    width: 400px;
+    top: -10px;
+    background-color: green;
+}
+
+}
+@media(min-width:992px){
+    .block-tb-megamenu {
+   height: 20px !important;
+}
+    .tb-megamenu .dropdown-menu {
+    top: 20px;
+}     
+    #block-tb-megamenu-main-menu {
+    float: right;
+    z-index: 1;
+    position: relative;
+    width: 750px;    
+    top: 40px;
+    background-color: blue;
+}
+
+    #block-tb-megamenu-menu-seconday-menu {
+    z-index: 1;
+    float: right;    
+    position: relative;
+    width: 380px;
+    top: -10px;
+    background-color: green;
+}
+}
+@media(min-width:1200px){
+     .block-tb-megamenu {
+   height: 20px !important;
+}
+    .tb-megamenu .dropdown-menu {
+    top: 20px;
+}    
+    #block-tb-megamenu-main-menu {
+    float: right;
+    z-index: 1;
+    position: relative;
+    width: 750px;    
+    top: 40px;
+    background-color: blue;
+}
+
+    #block-tb-megamenu-menu-seconday-menu {
+    z-index: 1;
+    float: right;    
+    position: relative;
+    width: 380px;
+    top: -10px;
+    background-color: green;
+}
+ 
+}
