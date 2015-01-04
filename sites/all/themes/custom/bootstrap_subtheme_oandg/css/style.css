@@ -526,7 +526,7 @@ a {
     position: relative;
     width: 550px;    
     top: 40px;
-    background-color: blue;
+    background-color: transparent;
 }
 
     #block-tb-megamenu-menu-seconday-menu {
@@ -535,7 +535,7 @@ a {
     position: relative;
     width: 400px;
     top: -10px;
-    background-color: green;
+    background-color: transparent;
 }
 
 }
@@ -552,7 +552,7 @@ a {
     position: relative;
     width: 750px;    
     top: 40px;
-    background-color: blue;
+    background-color: transparent;
 }
 
     #block-tb-megamenu-menu-seconday-menu {
@@ -561,7 +561,7 @@ a {
     position: relative;
     width: 380px;
     top: -10px;
-    background-color: green;
+    background-color: transparent;
 }
 }
 @media(min-width:1200px){
@@ -577,7 +577,7 @@ a {
     position: relative;
     width: 750px;    
     top: 40px;
-    background-color: blue;
+    background-color: transparent;
 }
 
     #block-tb-megamenu-menu-seconday-menu {
@@ -586,7 +586,7 @@ a {
     position: relative;
     width: 380px;
     top: -10px;
-    background-color: green;
+    background-color: transparent;
 }
  
 }
