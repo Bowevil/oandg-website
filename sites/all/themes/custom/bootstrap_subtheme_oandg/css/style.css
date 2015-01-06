@@ -179,6 +179,7 @@ a {
 /* Begin flexslider */
 .flexslider {
     background-color: #b6985a !important;
+    background-image: url("../oandg_background_texture.png");
     border-top:  4px solid #b6985a !important;
     border-left: none !important;
     border-right: none !important;
@@ -298,7 +299,7 @@ a {
     padding-right: 10px;
 }
 
-.form-control{
+.form-item-field-project-category-tid .form-control{
     display: inline;
     width: 20px;
     height: 34px;
