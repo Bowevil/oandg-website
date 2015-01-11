@@ -124,7 +124,15 @@
   </header> <!-- /#page-header -->
 
   <div class="row">
-
+    
+    <?php if (!empty($page['before_content'])): ?>
+      <aside class="col-sm-1"></aside>
+        <aside class="col-sm-10">
+          <?php print render($page['before_content']); ?>
+        </aside>  <!-- /#before_content -->
+      <aside class="col-sm-1"></aside>
+    <?php endif; ?> 
+  
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
@@ -152,21 +160,23 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+     
       <?php print render($page['content']); ?>
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-3" role="complementary">
+      <aside class="col-sm-4" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
   </div>
 </div>
-        <div class="row">
-          <div class="col-centered">
-            <?php print render($page['after_content']); ?></div>
-        </div>
+    <?php if (!empty($page['after_content'])): ?>
+      <aside class="col-sm-12">
+        <?php print render($page['after_content']); ?>
+      </aside>  <!-- /#after_content -->
+    <?php endif; ?>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
 </footer>

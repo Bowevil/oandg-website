@@ -15,7 +15,7 @@ h2 {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
-    font-size:xx-large;
+    font-size:2.625em; /* 16x.875=42 */
 }
 
 h3 {
@@ -28,7 +28,7 @@ h3 {
 p {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #757575 !important;  
+    color: #000000 !important;  
 }
 
 a {
@@ -56,7 +56,14 @@ a {
 }
 
 .region-sidebar-second{
-    padding-top: 25%;
+    /*padding-top: 25%;*/
+}
+
+.views-field-field-project-display-title {
+    display: none;
+}
+.division-landing-page-title .views-field-title {
+    display: none;   
 }
 
 /* end  Booststrap tweaks */
@@ -75,8 +82,25 @@ a {
     color: #ffffff !important;
 }
 
+.tb-megamenu-menu-seconday-menu .nav > li > a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+    color: #b6985a !important;
+}
+
+
 .tb-megamenu .nav > li > a:hover {
     color: #b6985a !important;
+}
+
+.tb-megamenu-menu-seconday-menu .nav > li > a:hover {
+    color: #ffffff !important;
+}
+
+.tb-megamenu .nav > li {
+    padding-right: 10px;
 }
 
 .tb-megamenu li > a:hover {
@@ -108,7 +132,6 @@ a {
 
 /* end tb-megamenu core css */
 
-/* end Booststrap tweaks */
  
  
 /* Begin header */ 
@@ -151,10 +174,15 @@ a {
     padding: 0px !important;
 }
 
+.col-md-4 { 
+    padding: 15px;
+   /* background-color: #FFFFFF; */
+}
+
 /* End Page Top */ 
 
 /* Begin breadcrumbs */
-/*
+
 #breadcrumbs {
     display:block !important;
 }
@@ -173,7 +201,6 @@ a {
     display: inline-block;
 }
 
-*/
 /* End breadcrumbs */
 
 /* Begin flexslider */
@@ -193,7 +220,9 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
-
+.flex-direction-nav a:before, .flex-direction-nav a.flex-next:before {
+    color: #b6985a;
+}
 
 /* End flexslider */
 
@@ -205,6 +234,7 @@ a {
     text-transform: uppercase;
 }
 
+/*
 .front-page-landing-page-container {
     width: auto;
     margin-right: auto;
@@ -213,9 +243,9 @@ a {
     padding-right: 10%;    
 }
 
+
 .front-page-landing-page {
     float: left;
-    /* width: 280px; */
     min-width: 240px;
     max-width: 280px;
     width: 30%;
@@ -225,6 +255,7 @@ a {
     margin-bottom: 15px;
     background-color: #FFFFFF;
 }
+*/
 
 .views-field-field-title-front-division {
     color: #eeeeee;
@@ -240,6 +271,15 @@ a {
 
 .views-field-field-title-front-division .field-content{
     text-align: center
+}
+
+.views-field-field-description-front-division {
+    min-height: 130px;
+    background-color: #FFFFFF;   
+}
+
+.views-field-field-link-front-division {
+    background-color: #FFFFFF;   
 }
 
 .views-field-field-description-front-division p {
@@ -270,7 +310,6 @@ a {
 }
 
 .views-exposed-form {
-    background-color: #FFFFFF;
     padding-left: 20px;
 }
 
@@ -309,7 +348,7 @@ a {
     color: #ffffff;
     vertical-align: bottom;
     background-color: #fff;
-    border: 1px solid #ffffff;
+    border: 1px solid transparent;
     border-radius: 4px;
 }
 
@@ -318,6 +357,7 @@ a {
 
 /* Begin portfolio page view */
 
+/*
 .portfolio-landing-page {
     float: left;
     min-width: 240px;
@@ -329,6 +369,12 @@ a {
     margin-bottom: 15px;
     background-color: #FFFFFF;
 }
+*/
+
+.view-showcase .col-md-4 {
+    min-height: 350px;
+    max-height: 350px;
+}
 
 .views-field-field-project-showcase-image img {
     width: 100%;
@@ -336,42 +382,46 @@ a {
 }
 
 .views-field-title-field {
+    text-align: center;
     color: #eeeeee;
     background-color: #b6985a;
-    padding-top:10px;
-    padding-bottom:10px;
-    margin-bottom: 10px;
+    padding: 10px;
 }
 
-.views-field-title-field .field-content{
-    text-align: center
-}
-
-.portfolio-landing-page .views-field-field-project-city, .portfolio-landing-page .views-field-field-project-date, .portfolio-landing-page .views-field-field-project-size {
+.portfolio-showcase-description {
+    min-height: 80px;
+    max-height: 80px;    
+    background-color: #ffffff;
+    padding-top: 10px;
     padding-left: 20px;
-    padding-right: 20px;    
+    padding-right: 20px;
 }
 
+.portfolio-label {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important; 
+}
+
+.view-showcase .views-field-title {
+    background-color: #ffffff;
+}
 
 .views-field-title a {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
-}
-
-.portfolio-landing-page .field-content a {
-    font-family: 'Open Sans', sans-serif !important;
-    font-weight: 300 !important;
-    color: #b6985a !important;
     padding-left: 20px;
 }
+
 
 /* End portfolio page view */
 
 
 /* Begin portfolio project single page view */
 
-.views-label-field-project-client, .views-label-field-project-city, .views-label-field-project-architect-engineer, .views-label-field-project-date, .views-label-field-project-size{
+.views-label-field-project-client, .views-label-field-project-city, .views-label-field-project-architect-engineer, .views-label-field-project-date, .views-label-field-project-size {
     color: #b6985a !important; 
 }
 
@@ -395,6 +445,7 @@ a {
 
 
 /* Begin division page view */
+
 .division-landing-page-sections {
     float: left;
     width: 280px;
@@ -412,6 +463,14 @@ a {
     padding-bottom:10px;    
 }
 
+
+
+.views-field-field-title-front-division a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .views-field-field-division-callouts-title .field-content{
     text-align: center
@@ -431,11 +490,14 @@ a {
     font-weight: 300 !important;
     color: #b6985a !important;
 }
+
 /* End division page view */
 
 /* Begin division page blog news view */
 
 .views-field-field-bn-call-out-image {
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -469,27 +531,24 @@ a {
     display: none;
 }
 
-.views-field-field-generic-marketing-headline{
-    width: 400px;
-    height: 270px;
-    margin-right: 15px;
+.views-field-field-generic-marketing-headline p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #c0c0c0 !important;
+    font-size:1.250em; /* 16x.875=20 */    
     margin-bottom: 15px;
 }
 
-.views-field-field-generic-marketing-desc{
+.views-field-field-generic-marketing-desc {
     float: left;
-    width: 400px;
     height: auto;
     margin-right: 15px;
     margin-bottom: 15px;    
 }
-.views-field-field-generic-marketing-image{
-    float: left;    
-    width: 280px;
-    height: 270px;
-    margin-top: 200px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+.views-field-field-generic-marketing-image {
+    float: left;
 }
 
 /* begin text toggle + - */
@@ -511,9 +570,30 @@ a {
 }
 /* end text toggle + - */
 
+/* begin Locations page */
+
+.views-field-field-location-address{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important; 
+    
+}
+
+.addressfield-container-inline .name-block{
+    font-weight: bold;
+}
+
+/* end Locations page */
+
 /* begin media Queries */
 
-@media(max-width:767px){}
+@media(max-width:767px){
+    .views-field-field-description-front-division {
+    min-height: 10px;
+    min-height: 10px;
+    background-color: #FFFFFF;   
+    }
+}
 @media(min-width:768px){
     .block-tb-megamenu {
    height: 20px !important;
