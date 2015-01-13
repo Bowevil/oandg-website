@@ -376,6 +376,23 @@ img {
 }
 */
 
+.view-display-id-block_1 .view-header {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important; 
+}
+
+#block-views-showcase-block-1 > .block-title {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 100%;
+    max-width: 900px;
+}
+
 .view-showcase .col-md-4 {
     min-height: 350px;
     max-height: 350px;
@@ -575,13 +592,23 @@ img {
 
 /* begin Locations page */
 
+.view-header > .block-title {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 100%;
+    max-width: 900px;
+}
+
 .views-field-field-location-address{
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #000000 !important; 
-    
 }
 
+.views-field-field-location-address .country {
+    display: none !important;
+}
 .addressfield-container-inline .name-block{
     font-weight: bold;
 }
