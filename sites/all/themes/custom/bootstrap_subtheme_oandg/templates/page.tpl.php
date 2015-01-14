@@ -172,11 +172,13 @@
 
   </div>
 </div>
+<div class="container">
     <?php if (!empty($page['after_content'])): ?>
       <aside class="col-sm-12">
         <?php print render($page['after_content']); ?>
       </aside>  <!-- /#after_content -->
     <?php endif; ?>
+</div>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
 </footer>

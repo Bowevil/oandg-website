@@ -1,7 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,300,700);
 
 body{
-    background-color: #eeeeee !important;
+    background-color:black;
+    background-image: url("../oandg_background_texture.png");
+}
+
+header {
+     background-color: #eeeeee !important;   
 }
 
 h1 {
@@ -16,6 +21,21 @@ h2 {
     font-weight: 300 !important;
     color: #b6985a !important;
     font-size:2.625em; /* 16x.875=42 */
+}
+
+#block-views-front-block-1 > h2{
+    color: #757575 !important; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+block-views-division-landing-page-block-2 h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    /*color: #b6985a !important;*/
+    color: #757575 !important; 
+    text-align: center;
+    font-size:2.625em; /* 16x.875=42 */     
 }
 
 h3 {
@@ -42,7 +62,23 @@ img {
     height: auto;
 }
 
+#navbar-static-top {
+    background-color:black  !important;
+}
+
+#navbar {
+    background-color:black  !important;    
+}
 /* begin Booststrap tweaks */
+
+.texture-container {
+    z-index: -999;
+    margin: 0 auto;
+    width: 100%;  
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 200px;
+}
 
 .container {
     margin: 0 auto;
@@ -50,6 +86,16 @@ img {
     max-width: 1200px;    
     padding-right: 0px !important;
     padding-left: 0px !important;
+    background-color: #eeeeee !important;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;    
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background-color: #eeeeee !important;
 }
 
 .division-landing-page, .page-header{
@@ -59,6 +105,9 @@ img {
 
 .navbar{
     margin-bottom: 0px;
+}
+.navbar-collapse, .navbar-header {
+    background-color: black;
 }
 
 .region-sidebar-second{
@@ -160,7 +209,7 @@ img {
 }
 
 .navbar .logo{
-    padding-left: 70px;
+    margin-left: 0px;
 }
 
 /* End header */
@@ -375,6 +424,10 @@ img {
     background-color: #FFFFFF;
 }
 */
+.portfolio-heading{
+    display: inline-block;
+    padding: 10px;
+}
 
 .view-display-id-block_1 .view-header {
     position: relative;
@@ -403,17 +456,23 @@ img {
 }
 
 .views-field-title-field {
+    min-height: 60px;  
     text-align: center;
+    vertical-align: middle;
     color: #eeeeee;
     background-color: #b6985a;
     padding: 10px;
+}
+
+.views-field-title-field > .field-content {
+    margin-top: 10px;
 }
 
 .portfolio-showcase-description {
     min-height: 80px;
     max-height: 80px;    
     background-color: #ffffff;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -483,6 +542,11 @@ img {
     padding-bottom:10px;    
 }
 
+.views-field-field-bn-call-out-text {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important; 
+}
 
 
 .views-field-field-title-front-division a {
@@ -519,6 +583,13 @@ img {
     width: 100%;
     height: 100%;
 
+}
+
+.division-landing-page-blognews{
+    border-color: red green white blue;
+    border-style: solid none none solnoneid;
+    border-width: 1px 0px 0px 0px;
+    padding: 10px;
 }
 
 .division-landing-page-blognews .views-field-title {
@@ -614,6 +685,31 @@ img {
 }
 
 /* end Locations page */
+
+/* begin news landing page */
+#block-views-blog-news-block-1 > .block-title {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.views-field-field-bn-call-out-image img {
+    width: 220px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.views-field .views-field-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;   
+}
+
+.views-field views-field-field-bn-call-out-image {
+    float: right;
+}
 
 /* begin media Queries */
 
