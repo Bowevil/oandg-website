@@ -585,9 +585,9 @@ img {
 
 }
 
-.division-landing-page-blognews{
-    border-color: red green white blue;
-    border-style: solid none none solnoneid;
+.division-landing-page-blognews {
+    border-color: #ccc green white blue;
+    border-style: solid none none none;
     border-width: 1px 0px 0px 0px;
     padding: 10px;
 }
