@@ -57,9 +57,9 @@ a {
 }
 
 img {
-    display: block;
+    /* display: block;
     width: 100%;
-    height: auto;
+    height: auto;  */
 }
 
 #navbar-static-top {
@@ -320,7 +320,8 @@ img {
 }
 
 .views-field-field-image-front-division img {
-
+    width: 100%;
+    height: auto;
 }
 
 .views-field-field-title-front-division .field-content{
@@ -397,7 +398,7 @@ img {
     width: 20px;
     height: 34px;
     padding: 0px 0px;
-    font-size: inherit;
+    /* font-size: inherit; */
     line-height: 1.428571429;
     color: #ffffff;
     vertical-align: bottom;
@@ -452,7 +453,8 @@ img {
 }
 
 .views-field-field-project-showcase-image img {
-
+    width: 100%;
+    height: auto;
 }
 
 .views-field-title-field {
@@ -579,10 +581,9 @@ img {
 
 /* Begin division page blog news view */
 
-.views-field-field-bn-call-out-image {
-    width: 100%;
+.division-landing-page-blognews .views-field-field-bn-call-out-image {
+    width: 250px;
     height: 100%;
-
 }
 
 .division-landing-page-blognews {
@@ -663,12 +664,42 @@ img {
 
 /* begin Locations page */
 
+.not-front .view-locations {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+.form-item-field-location-type-tid .form-type-bef-checkbox{
+    float: left;
+    width: 220px;
+    padding-right: 10px;
+}
+
+.form-item-field-location-type-tid .form-control{
+    display: inline;
+    width: 20px;
+    height: 34px;
+    padding: 0px 0px;
+    font-size: inherit;
+    line-height: 1.428571429;
+    color: #ffffff;
+    vertical-align: bottom;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
 .view-header > .block-title {
     position: relative;
     top: 20px;
-    left: 100px;
+    left: 0px;
     width: 100%;
     max-width: 900px;
+}
+.views-field-field-location-address{ 
+    min-height: 80px;
 }
 
 .views-field-field-location-address{
@@ -687,6 +718,8 @@ img {
 /* end Locations page */
 
 /* begin news landing page */
+
+
 #block-views-blog-news-block-1 > .block-title {
     position: relative;
     top: 20px;
@@ -695,10 +728,15 @@ img {
     max-width: 900px;
 }
 
-.views-field-field-bn-call-out-image img {
-    width: 220px;
-    margin-right: 10px;
-    margin-bottom: 15px;
+.block-views-blog-news-block-1 {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+.view-content table{
+
 }
 
 .views-field .views-field-title {
@@ -707,10 +745,22 @@ img {
     color: #b6985a !important;   
 }
 
-.views-field views-field-field-bn-call-out-image {
-    float: right;
+.views-field-field-bn-call-out-image .field-content img{
+    width: 300px;
+    height: auto;
+    margin: 20px;
 }
 
+.view-blog-news .views-field-title {
+    float:left;
+}
+
+.view-blog-news .views-field views-field-nid{
+    
+}
+.views-field-field-bn-date-backdated {
+
+}
 /* begin media Queries */
 
 @media(max-width:767px){
