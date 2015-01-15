@@ -615,7 +615,7 @@ img {
 
 /* Begin generic page view */
 
-.generic-page {
+/*.generic-page {
     float: left;
     margin: 0 auto;
     width: 100%;
@@ -635,9 +635,10 @@ img {
     font-style: italic;
     font-weight: 400;
     color: #c0c0c0 !important;
-    font-size:1.250em; /* 16x.875=20 */    
+    font-size:1.250em;    
     margin-bottom: 15px;
 }
+
 
 .views-field-field-generic-marketing-desc {
     float: left;
@@ -648,6 +649,25 @@ img {
 .views-field-field-generic-marketing-image {
     float: left;
 }
+*/
+
+.field-name-field-generic-marketing-headline p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #c0c0c0 !important;
+    font-size:1.250em; /* 16x.875=20 */    
+    margin-bottom: 15px;
+}
+
+
+.field-name-field-generic-marketing-image {
+    float:right;
+    clear: right;    
+    padding: 10px;
+}
+
 
 /* begin text toggle + - */
 
@@ -725,8 +745,7 @@ img {
 
 /* begin news landing page */
 
-
-#block-views-blog-news-block-1 > .block-title {
+/*#block-views-blog-news-block-1 > .block-title {
     position: relative;
     top: 20px;
     left: 100px;
@@ -767,13 +786,43 @@ img {
 } 
 .view-blog-news .field-name-field-bn-call-out-text {
     text-align: left;
-
     padding:10px;
     padding-left:20px;    
     margin-left: 10px;
     margin-bottom: 20px;    
     width: 480px;
 }
+
+.views-field-field-bn-call-out-image {
+    padding: 15px;
+    float:left;
+}
+.views-field-field-bn-date-backdated{
+    float:left;
+    clear: right;
+}
+.views-field .views-field-title{
+    float:left;
+}
+*/
+.col-md-12  .views-field-field-bn-call-out-image img {
+    width: 100px;
+    height: auto;
+    padding-left: 15px;
+}
+.col-md-12 .views-field-field-bn-date-backdated{
+    white-space: nowrap;
+}
+
+.col-md-12 .views-field-title a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;
+}
+
+
+/* end news landing page */
 
 /* begin news page node */
 
