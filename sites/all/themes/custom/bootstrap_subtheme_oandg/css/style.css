@@ -758,7 +758,21 @@ img {
 }
 
 .view-blog-news .views-field-title {
-    float:left;
+
+}
+
+.view-blog-news .field-name-field-bn-call-out-image {
+    
+    padding: 10px;
+} 
+.view-blog-news .field-name-field-bn-call-out-text {
+    text-align: left;
+
+    padding:10px;
+    padding-left:20px;    
+    margin-left: 10px;
+    margin-bottom: 20px;    
+    width: 480px;
 }
 
 /* begin news page node */
@@ -770,8 +784,7 @@ img {
     font-weight: 400;
     color: #c0c0c0 !important;
     font-size:1.250em; /* 16x.875=20 */    
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px; 
 }
 .field-name-field-bn-call-out-image {
     float:right;
@@ -783,6 +796,8 @@ img {
     float: right;
     clear: both;
     padding:10px;
+    padding-left:20px;    
+    margin-left: 10px;
     margin-bottom: 20px;    
     width: 480px;
 }
