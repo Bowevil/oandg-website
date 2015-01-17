@@ -29,13 +29,12 @@ h2 {
     text-transform: uppercase;
 }
 
-block-views-division-landing-page-block-2 h2 {
-    font-family: 'Open Sans', sans-serif !important;
-    font-weight: 300 !important;
-    /*color: #b6985a !important;*/
-    color: #757575 !important; 
+#block-views-division-landing-page-block-2 h2 {
     text-align: center;
-    font-size:2.625em; /* 16x.875=42 */     
+    /* font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #757575 !important; 
+    font-size:2.625em;*/ /* 16x.875=42 */     
 }
 
 h3 {
@@ -363,7 +362,7 @@ img {
 }
 
 .views-field-field-link-front-division {
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .views-field-field-link-front-division a {
@@ -371,6 +370,12 @@ img {
     font-weight: 300 !important;
     color: #b6985a !important;
 }
+
+.views-field-field-link-front-division .field-content {
+    padding-right: 10px;
+    text-align: right;
+}
+
 /* End Front page view */
 
 
