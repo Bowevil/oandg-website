@@ -705,6 +705,12 @@ img {
     padding: 10px;
 }
 
+/* begin service page */
+.field-name-field-service-call-out-image {
+    float:right;
+    clear: right;    
+    padding: 10px;
+}
 
 /* begin text toggle + - */
 
