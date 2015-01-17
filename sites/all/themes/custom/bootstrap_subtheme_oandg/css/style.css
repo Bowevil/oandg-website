@@ -652,7 +652,7 @@ img {
 
 /* Begin generic page view */
 
-/*.generic-page {
+.generic-page {
     float: left;
     margin: 0 auto;
     width: 100%;
@@ -663,9 +663,16 @@ img {
 }
 
 .generic-page .views-field-title {
-    display: none;
+    display: block;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    font-size:xx-large;
 }
 
+.field-name-field-generic-marketing-desc {
+    padding-left: 10% !important;
+}
 .views-field-field-generic-marketing-headline p{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
@@ -676,7 +683,7 @@ img {
     margin-bottom: 15px;
 }
 
-
+/*
 .views-field-field-generic-marketing-desc {
     float: left;
     height: auto;
@@ -706,11 +713,16 @@ img {
 }
 
 /* begin service page */
+.field-name-field-service-description {
+    padding-left: 10% !important;
+}
 .field-name-field-service-call-out-image {
     float:right;
     clear: right;    
     padding: 10px;
 }
+
+/* end service page */
 
 /* begin text toggle + - */
 
