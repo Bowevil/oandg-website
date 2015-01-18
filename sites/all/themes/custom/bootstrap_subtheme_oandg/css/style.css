@@ -65,8 +65,16 @@ a {
 }
 
 .page-header{
-    padding-left: 10% !important;
-    padding-right: 10% !important;   
+   /* padding-left: 10% !important;
+    padding-right: 10% !important;   */ 
+}
+
+.page-header{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 100%;
+    max-width: 900px;
 }
 
 img {
@@ -123,6 +131,19 @@ img {
 }
 .division-landing-page-title .views-field-title {
     display: none;   
+}
+
+.gold-header {
+    background-color: #b6985a !important;
+    border-top:  4px solid #b6985a !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom:  2px solid #b6985a !important;
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: 4px; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;    
 }
 
 /* end  Booststrap tweaks */
