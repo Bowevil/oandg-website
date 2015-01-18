@@ -179,6 +179,6 @@
       </aside>  <!-- /#after_content -->
     <?php endif; ?>
 </div>
-<footer class="navbar-fixed-bottom">
+<footer class="footer">
   <?php print render($page['footer']); ?>
 </footer>
