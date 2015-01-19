@@ -945,18 +945,84 @@ img {
     background-color: black !important;
 }
 
-
-.region-footer .views-field-field-location-address, .region-footer .views-field-field-location-phone-number{
+.view-id-quicklinks {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #ffffff !important; 
+    color: #ffffff !important;
+    font-size:small;
 }
 
-
-.extra-text {
+.col-md-4 .views-field-body .field-content p{
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #ffffff !important; 
+    color: #ffffff !important;
+    font-size:small;
+}
+
+.footer-text {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+.footer-text a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+    color: #ffffff !important;
+    font-size:small;
+    
+}
+
+.footer-text a:hover {
+    text-decoration: none;
+    color: #b6985a !important; 
+}
+
+#blank:before {
+    display:inline-block;
+    content: url(../oandg-blank.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+#location:before {
+    display:inline-block;
+    content: url(../oandg-location.png);
+    vertical-align:middle;
+    padding-right: 10px;
+    border: none;
+}
+.space {
+    position: relative;
+    top: -10px;
+}
+
+#email:before {
+    display:inline-block;
+    content: url(../oandg-envelope.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+#phone:before {
+    display:inline-block;   
+    content: url(../oandg-phone.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
+}
+
+#linkedin:before {
+    display:inline-block;   
+    content: url(../oandg-linkedin.png);
+    vertical-align:middle; 
+    padding-right: 10px;
+    border: none;
 }
 
 /* end footer */
