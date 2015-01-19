@@ -64,13 +64,14 @@ a {
   font-weight: normal;
 }
 
-.page-header{
-   /* padding-left: 10% !important;
-    padding-right: 10% !important;  */ 
-}
 
-.page-header{
+h1.page-header{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+  
     position: relative;
+    text-transform: uppercase;
     top: 20px;
     left: 100px;
     width: 100%;
@@ -112,7 +113,7 @@ img {
 
 .division-landing-page {
     padding-top: 15px;
-    padding-left: 10% !important;
+    padding-left: 8% !important;
 }
 
 .navbar{
@@ -134,14 +135,10 @@ img {
 }
 
 .gold-header {
-    background-color: #b6985a !important;
-    border-top:  4px solid #b6985a !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-bottom:  2px solid #b6985a !important;
+    border-bottom:  4px solid #b6985a !important;
     width: auto; /* undo width: 100%  in flexslider.css*/
     max-width:100%;  /* Make sure the image stays inside its surrounding container. */
-    height: 4px; /* keep the aspect ratio */
+    height: 2px; /* keep the aspect ratio */
     margin-right: auto;
     margin-left: auto;    
 }
@@ -521,7 +518,6 @@ img {
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 5px;
 }
 
 .portfolio-label {
@@ -683,7 +679,7 @@ img {
 }
 
 .field-name-field-generic-marketing-desc {
-    padding-left: 10% !important;
+    padding-left: 5% !important;
 }
 .views-field-field-generic-marketing-headline p{
     text-align: center;
@@ -779,7 +775,7 @@ img {
     line-height: 1.428571429;
     color: #ffffff;
     vertical-align: bottom;
-    background-color: #fff;
+    background-color: #eeeeee;
     border: 1px solid transparent;
     border-radius: 4px;
 }
@@ -942,6 +938,7 @@ img {
    /* margin: 0 auto;
     padding-right: 0px !important;
     padding-left: 0px !important;*/
+   height: auto;
     background-color: black !important;
 }
 

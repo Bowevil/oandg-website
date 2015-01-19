@@ -126,11 +126,9 @@
   <div class="row">
     
     <?php if (!empty($page['before_content'])): ?>
-      <aside class="col-sm-1"></aside>
-        <aside class="col-sm-10">
+        <aside class="col-sm-12">
           <?php print render($page['before_content']); ?>
         </aside>  <!-- /#before_content -->
-      <aside class="col-sm-1"></aside>
     <?php endif; ?> 
   
     <?php if (!empty($page['sidebar_first'])): ?>
