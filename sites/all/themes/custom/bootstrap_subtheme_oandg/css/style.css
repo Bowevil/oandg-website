@@ -19,7 +19,8 @@ h1 {
 h2 {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #b6985a !important;
+    /*color: #b6985a !important;*/
+    color: #000000 !important;    
     font-size:2.625em; /* 16x.875=42 */
 }
 
@@ -68,7 +69,11 @@ a {
 h1.page-header{
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #000000 !important;
+    /*color: #b6985a !important;*/
+    color: #000000 !important;    
+    font-size:2.625em; /* 16x.875=42 */
+    position: relative;
+    top: 20px;
     padding-left: 5% !important;
 /*
     position: relative;
@@ -394,8 +399,8 @@ img {
 .not-front .view-showcase{
     margin: 0 auto;
     width: 100%;
-    padding-right: 10% !important;
-    padding-left: 10% !important;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
 }
 
 .views-exposed-form {
@@ -460,13 +465,11 @@ img {
 */
 .portfolio-heading{
     display: inline-block;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
 }
 
 .view-display-id-block_1 .view-header {
-    position: relative;
-    top: 20px;
-    display: inline-block;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important; 
@@ -475,7 +478,7 @@ img {
 #block-views-showcase-block-1 > .block-title {
     position: relative;
     top: 20px;
-    left: 100px;
+    left: 50px;
     width: 100%;
     max-width: 900px;
 }
@@ -599,7 +602,10 @@ img {
 .views-field-field-bn-call-out-text {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #000000 !important; 
+    color: #000000 !important;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -642,6 +648,8 @@ img {
     border-color: #b6985a green white blue;
     border-style: solid none none none;
     border-width: 1px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;    
     padding-left: 10% !important;
     padding-top: 10px;
     padding-bottom: 10px;
