@@ -639,10 +639,12 @@ img {
 }
 
 .division-landing-page-blognews {
-    border-color: #ccc green white blue;
+    border-color: #b6985a green white blue;
     border-style: solid none none none;
     border-width: 1px 0px 0px 0px;
-    padding: 10px;
+    padding-left: 10% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .division-landing-page-blognews .views-field-title {
@@ -873,7 +875,17 @@ img {
 .views-field .views-field-title{
     float:left;
 }
+ 
+
 */
+
+.view-id-blog_news {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    margin-bottom: 15px;        
+}
+
+
 .col-md-12  .views-field-field-bn-call-out-image img {
     width: 100px;
     height: auto;
