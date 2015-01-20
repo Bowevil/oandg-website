@@ -672,28 +672,39 @@ img {
 /* Begin generic page view */
 
 .generic-page {
-    float: left;
-    margin: 0 auto;
     width: 100%;
-    padding-right: 10% !important;
-    padding-left: 10% !important;    
+   /* padding-left: 5% !important;
+    padding-right: 5% !important;    
     margin-right: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; */
 }
 
 .generic-page .views-field-title {
-    display: block;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    color: #b6985a !important;
-    font-size:xx-large;
+    /*color: #b6985a !important;*/
+    color: #000000 !important;    
+    font-size:2.625em; /* 16x.875=42 */
+    position: relative;
+    top: 20px;
+    padding-left: 5% !important;
+    
 }
+
+.views-field-field-product-cm-description {
+    padding-top: 5% !important;
+   padding-left: 5% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 5% !important;
+}
+
 
 .field-name-field-generic-marketing-desc {
    padding-left: 5% !important;
    padding-right: 5% !important;   
    padding-bottom: 5% !important;
 }
+
 .views-field-field-generic-marketing-headline p{
     text-align: center;
     font-family: 'Open Sans', sans-serif !important;
