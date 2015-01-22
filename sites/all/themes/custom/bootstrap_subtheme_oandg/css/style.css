@@ -989,10 +989,7 @@ input[type="checkbox"] {
     text-align: center;
 }
 
-.view-id-blog_news {
-    padding-right: 5% !important;
-    padding-left: 5% !important;
-    margin-bottom: 15px;        
+.view-id-blog_news {       
 }
 
 
@@ -1001,7 +998,7 @@ input[type="checkbox"] {
     height: auto;
     padding-left: 15px;
 }
-.col-md-12 .views-field-field-bn-date-backdated{
+.col-md-12 .views-field-field-bn-date-backdated {
     white-space: nowrap;
 }
 
@@ -1156,6 +1153,20 @@ input[type="checkbox"] {
     vertical-align:middle; 
     padding-right: 10px;
     border: none;
+}
+
+#block-views-blog-news-block-5{
+    float: right;
+    position: relative;
+    top: -256px;
+    left:-60px;  
+}
+
+.col-md-4 .views-field-field-bn-date-backdated {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    font-size:small;
 }
 
 /* end footer */
