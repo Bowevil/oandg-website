@@ -159,6 +159,10 @@ img {
     margin-left: auto;    
 }
 
+.views-exposed-widgets {
+    margin-bottom: 15px;
+}
+
 /* end  Booststrap tweaks */
 
 /* begin tb-megamenu core css */
@@ -410,7 +414,7 @@ img {
 
 /* Begin profolio page exposed filters */
 
-.not-front .view-showcase {
+.not-front.page-portfolio .view-showcase {
     margin: 0 auto;
     width: 100%;
     padding-right: 5% !important;
@@ -847,7 +851,22 @@ img {
 
 /* begin Locations page */
 
-.not-front .view-locations {
+
+.not-front.page-locations .view-locations {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    padding-bottom: 2% !important;
+}
+
+.not-front.page-locations .view-locations .col-md-4 {
+    min-height: 140px;
+
+}
+
+
+.region-sidebar-second .view-locations {
     border-color: #b6985a green white blue;
     border-style: solid none none none;
     border-width: 1px 0px 0px 0px;
@@ -928,12 +947,14 @@ input[type="checkbox"] {
 }
 
 .views-field-field-location-address .country {
-    display: none !important;
 }
 .addressfield-container-inline .name-block{
     font-weight: bold;
 }
 
+.views-field-field-location-phone-number{
+    padding-bottom: 10px;
+}
 /* end Locations page */
 
 /* begin news landing page */
@@ -1032,13 +1053,15 @@ input[type="checkbox"] {
 /* begin news page node */
 
 .field-name-field-bn-callout-quote > .field-items > .field-item p{
-    text-align: center;
+    text-align: left;
     font-family: 'Open Sans', sans-serif !important;
     font-style: italic;
     font-weight: 400;
-    color: #c0c0c0 !important;
-    font-size:1.250em; /* 16x.875=20 */    
-    margin-bottom: 15px; 
+    color: #000000 !important;
+    font-size:1.250em; /* 16x.875=20 */
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
 }
 
 .field-name-field-bn-call-out-image {
