@@ -123,6 +123,7 @@ img {
 .division-landing-page {
     padding-top: 15px;
     padding-left: 8% !important;
+    padding-bottom: 2% !important;
 }
 
 .navbar{
@@ -393,6 +394,7 @@ img {
     width: 100%;
     padding-right: 5% !important;
     padding-left: 5% !important;
+    padding-bottom: 2% !important;
 }
 
 .views-exposed-form {
@@ -530,7 +532,6 @@ img {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
-    padding-left: 20px;
 }
 
 
@@ -539,8 +540,16 @@ img {
 
 /* Begin portfolio project single page view */
 
+#block-views-showcase-block-4 .block-title {
+    padding-left: 3%;
+}
+
 .views-label-field-project-client, .views-label-field-project-city, .views-label-field-project-architect-engineer, .views-label-field-project-date, .views-label-field-project-size {
     color: #b6985a !important; 
+}
+
+.views-field-field-project-client, .views-field-field-project-city, .views-field-field-project-architect-engineer, .views-field-field-project-date, .views-field-field-project-size {
+    padding-bottom: 10px;
 }
 
 .views-field-field-project-images img{
@@ -558,6 +567,11 @@ img {
     margin: 0 auto;
     width: 100%;
     background-color: transparent;
+}
+
+.views-field-field-project-description {
+    padding-bottom: 2% !important;
+    
 }
 /* End portfolio project page view */
 
@@ -589,6 +603,18 @@ img {
     padding-top:10px;
     padding-bottom:10px;    
 }
+
+.views-field-field-division-callouts-title a{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.views-field-field-division-callouts-title a:hover {
+    color: #000000;
+}
+
 
 .views-field-field-bn-call-out-text {
     font-family: 'Open Sans', sans-serif !important;
@@ -633,6 +659,8 @@ img {
 .division-landing-page-blognews .views-field-field-bn-call-out-image {
     width: 250px;
     height: 100%;
+    padding-top: 5px;    
+    padding-bottom: 10px;
 }
 
 .division-landing-page-blognews {
@@ -656,7 +684,9 @@ img {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
+    text-decoration: none;
 }
+
 /* End division page blog news view */
 
 
@@ -735,6 +765,7 @@ img {
     clear: right;    
     padding: 10px;
     padding-right: 5% !important;
+    padding-bottom: 2% !important;    
 }
 
 /* begin service page */
