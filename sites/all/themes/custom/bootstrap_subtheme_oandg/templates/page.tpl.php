@@ -172,11 +172,9 @@
 </div>
 <div class="container">
     <?php if (!empty($page['after_content'])): ?>
-      <aside class="col-sm-1"></aside>
-      <aside class="col-sm-10">
+      <aside class="col-sm-12">
         <?php print render($page['after_content']); ?>
       </aside>  <!-- /#after_content -->
-      <aside class="col-sm-1"></aside>
     <?php endif; ?>
 </div>
 <footer class="footer">

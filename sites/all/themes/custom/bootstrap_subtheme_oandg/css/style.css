@@ -51,6 +51,12 @@ p {
     color: #000000 !important;  
 }
 
+li {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;  
+}
+
 a {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
@@ -122,7 +128,7 @@ img {
 
 .division-landing-page {
     padding-top: 15px;
-    padding-left: 8% !important;
+    padding-left: 2% !important;
     padding-bottom: 2% !important;
 }
 
@@ -145,7 +151,7 @@ img {
 }
 
 .gold-header {
-    border-bottom:  4px solid #b6985a !important;
+    border-bottom:  1px solid #b6985a !important;
     width: auto; /* undo width: 100%  in flexslider.css*/
     max-width:100%;  /* Make sure the image stays inside its surrounding container. */
     height: 2px; /* keep the aspect ratio */
@@ -257,8 +263,7 @@ img {
 }
 
 .col-md-4 { 
-    padding: 15px;
-   /* background-color: #FFFFFF; */
+    /* padding: 15px;*/
 }
 
 /* End Page Top */ 
@@ -292,7 +297,7 @@ img {
     border-top:  4px solid #b6985a !important;
     border-left: none !important;
     border-right: none !important;
-    border-bottom:  4px solid #b6985a !important;
+    border-bottom:  2px solid #b6985a !important;
 }
 
 .flexslider .slides img{
@@ -333,9 +338,13 @@ img {
 }
 */
 
-.view-showcase .views-field-field-image-front-division .col-md-4 {
+.view-showcase .views-field-field-image-front-division .col-md-4 {    
     min-height: 350px;
     max-height: 350px;
+}
+
+.front-page-landing-page-container .col-md-4 {
+    padding-bottom: 15px;
 }
 
 .views-field-field-title-front-division {
@@ -345,18 +354,28 @@ img {
     padding-bottom:10px;    
 }
 
+.views-field-field-title-front-division {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;    
+}
+
 .views-field-field-image-front-division img {
     width: 100%;
     height: auto;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;    
 }
 
 .views-field-field-title-front-division .field-content{
-    text-align: center
+    text-align: center;   
 }
 
 .views-field-field-description-front-division {
     min-height: 130px;
-    background-color: #FFFFFF;   
+    background-color: #FFFFFF;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;   
 }
 
 .views-field-field-link-front-division {
@@ -370,7 +389,9 @@ img {
 }
 
 .views-field-field-link-front-division {
-    /* padding-left: 20px; */
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;  
 }
 
 .views-field-field-link-front-division a {
@@ -389,7 +410,7 @@ img {
 
 /* Begin profolio page exposed filters */
 
-.not-front .view-showcase{
+.not-front .view-showcase {
     margin: 0 auto;
     width: 100%;
     padding-right: 5% !important;
@@ -452,6 +473,9 @@ img {
     background-color: #FFFFFF;
 }
 */
+
+.not-front .view-showcase
+
 .portfolio-heading{
     display: inline-block;
     padding-top: 20px;
@@ -477,13 +501,17 @@ img {
 }
 
 .view-id-showcase .col-md-4 {
-    min-height: 250px;
-    max-height: 250px;
+    /*min-height: 250px;
+    max-height: 250px;*/
+    padding-bottom: 15px;
 }
 
 .views-field-field-project-showcase-image img {
     width: 100%;
     height: auto;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;     
 }
 
 .views-field-title-field {
@@ -491,10 +519,12 @@ img {
     text-align: center;
     vertical-align: middle;
     background-color: #b6985a;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;     
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 10px;    
+    padding-right: 10px;   
 }
 
 .views-field-title-field a {
@@ -512,6 +542,9 @@ img {
     text-transform: uppercase;
     text-align: center;
     background-color: #ffffff;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000; 
+    border-bottom: 1px solid #000000;     
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
