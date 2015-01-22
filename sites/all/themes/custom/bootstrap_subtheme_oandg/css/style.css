@@ -319,28 +319,6 @@ img {
 
 /* Begin Front page view */
 
-/*
-.front-page-landing-page-container {
-    width: auto;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15%;
-    padding-right: 10%;    
-}
-
-
-.front-page-landing-page {
-    float: left;
-    min-width: 240px;
-    max-width: 280px;
-    width: 30%;
-    height: 350px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    background-color: #FFFFFF;
-}
-*/
 
 .view-showcase .views-field-field-image-front-division .col-md-4 {    
     min-height: 350px;
@@ -359,16 +337,16 @@ img {
 }
 
 .views-field-field-title-front-division {
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;    
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;    
 }
 
 .views-field-field-image-front-division img {
     width: 100%;
     height: auto;
-    border-top: 1px solid #000000;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;    
+    border-top: 1px solid #cacad9;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;    
 }
 
 .views-field-field-title-front-division .field-content{
@@ -378,8 +356,8 @@ img {
 .views-field-field-description-front-division {
     min-height: 130px;
     background-color: #FFFFFF;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;   
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;   
 }
 
 .views-field-field-link-front-division {
@@ -393,9 +371,9 @@ img {
 }
 
 .views-field-field-link-front-division {
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
-    border-bottom: 1px solid #000000;  
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;
+    border-bottom: 1px solid #cacad9;  
 }
 
 .views-field-field-link-front-division a {
@@ -464,19 +442,6 @@ img {
 
 /* Begin portfolio page view */
 
-/*
-.portfolio-landing-page {
-    float: left;
-    min-width: 240px;
-    max-width: 280px;
-    width: 30%;    
-    height: 300px;
-    margin-left: 15px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    background-color: #FFFFFF;
-}
-*/
 
 .not-front .view-showcase
 
@@ -513,9 +478,9 @@ img {
 .views-field-field-project-showcase-image img {
     width: 100%;
     height: auto;
-    border-top: 1px solid #000000;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;     
+    border-top: 1px solid #cacad9;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
 }
 
 .views-field-title-field {
@@ -523,8 +488,8 @@ img {
     text-align: center;
     vertical-align: middle;
     background-color: #b6985a;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;     
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -546,9 +511,9 @@ img {
     text-transform: uppercase;
     text-align: center;
     background-color: #ffffff;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000; 
-    border-bottom: 1px solid #000000;     
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9; 
+    border-bottom: 1px solid #cacad9;     
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
