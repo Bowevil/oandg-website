@@ -673,9 +673,9 @@ img {
 .generic-page .views-field-title {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
-    /*color: #b6985a !important;*/
     color: #000000 !important;    
     font-size:2.625em; /* 16x.875=42 */
+    text-transform: uppercase;
     position: relative;
     padding-left: 5% !important;
     
