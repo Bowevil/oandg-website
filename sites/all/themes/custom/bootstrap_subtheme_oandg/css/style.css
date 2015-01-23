@@ -1158,8 +1158,6 @@ input[type="checkbox"] {
 #block-views-blog-news-block-5{
     float: right;
     position: relative;
-    top: -256px;
-    left:-60px;
     background-color: #000000;
 }
 
@@ -1171,8 +1169,6 @@ input[type="checkbox"] {
 }
 
 /* end footer */
-
-
 
 /* begin media Queries */
 
@@ -1186,7 +1182,7 @@ input[type="checkbox"] {
     width: 100%;
     position: relative;
     padding-top: 10px;
-    top: 0px;
+    top: 500px;
     left:0px;  
 }   
 }
