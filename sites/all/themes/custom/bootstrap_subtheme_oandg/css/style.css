@@ -1090,10 +1090,7 @@ input[type="checkbox"] {
 }
 
 .footer-text {
-    margin: 0 auto;
-    width: 100%;
-    padding-right: 10% !important;
-    padding-left: 10% !important;
+    padding-left: 6% !important;
 }
 
 .footer-text a {
@@ -1158,7 +1155,8 @@ input[type="checkbox"] {
 #block-views-blog-news-block-5{
     float: right;
     position: relative;
-    background-color: #000000;
+    background-color: #000000;  
+    padding-right: 36px;
 }
 
 .col-md-4 .views-field-field-bn-date-backdated {
@@ -1211,7 +1209,11 @@ input[type="checkbox"] {
     top: 0px;
     background-color: transparent;
 }
-
+#block-views-blog-news-block-5{
+    float: right;
+    position: relative;
+    background-color: #000000;
+}
 }
 @media(min-width:992px){
     .block-tb-megamenu {
