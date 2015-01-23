@@ -1182,7 +1182,13 @@ input[type="checkbox"] {
     padding-top: 10px;
     top: 500px;
     left:0px;  
-}   
+}
+#block-views-blog-news-block-5{
+    position: relative;
+    top:0px;
+    background-color: #000000;  
+}
+
 }
 @media(min-width:768px){
     
