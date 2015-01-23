@@ -1181,6 +1181,13 @@ input[type="checkbox"] {
     min-height: 10px;
     background-color: #FFFFFF;   
     }
+    #block-views-blog-news-block-5{
+    width: 80%;
+    position: relative;
+    padding-top: 10px;
+    top: 0px;
+    left:-70px;  
+}   
 }
 @media(min-width:768px){
     .block-tb-megamenu {
