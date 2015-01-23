@@ -1203,7 +1203,7 @@ input[type="checkbox"] {
     z-index: 1;
     position: relative;
     width: 550px;    
-    top: 40px;
+    top: 50px;
     background-color: transparent;
 }
 
@@ -1212,7 +1212,7 @@ input[type="checkbox"] {
     float: right;    
     position: relative;
     width: 400px;
-    top: -10px;
+    top: 0px;
     background-color: transparent;
 }
 
@@ -1229,7 +1229,7 @@ input[type="checkbox"] {
     z-index: 1;
     position: relative;
     width: 750px;    
-    top: 40px;
+    top: 50px;
     background-color: transparent;
 }
 
@@ -1238,7 +1238,7 @@ input[type="checkbox"] {
     float: right;    
     position: relative;
     width: 380px;
-    top: -10px;
+    top: 0px;
     background-color: transparent;
 }
 
@@ -1255,7 +1255,7 @@ input[type="checkbox"] {
     z-index: 1;
     position: relative;
     width: 750px;    
-    top: 40px;
+    top: 50px;
     background-color: transparent;
 }
 
@@ -1264,7 +1264,7 @@ input[type="checkbox"] {
     float: right;    
     position: relative;
     width: 380px;
-    top: -10px;
+    top: 0px;
     background-color: transparent;
 }
 }
