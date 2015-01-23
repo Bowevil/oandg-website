@@ -1159,7 +1159,8 @@ input[type="checkbox"] {
     float: right;
     position: relative;
     top: -256px;
-    left:-60px;  
+    left:-60px;
+    background-color: #000000;
 }
 
 .col-md-4 .views-field-field-bn-date-backdated {
@@ -1182,14 +1183,15 @@ input[type="checkbox"] {
     background-color: #FFFFFF;   
     }
     #block-views-blog-news-block-5{
-    width: 80%;
+    width: 100%;
     position: relative;
     padding-top: 10px;
     top: 0px;
-    left:-70px;  
+    left:0px;  
 }   
 }
 @media(min-width:768px){
+    
     .block-tb-megamenu {
    height: 20px !important;
 }
@@ -1216,6 +1218,7 @@ input[type="checkbox"] {
 
 }
 @media(min-width:992px){
+    /*
     .block-tb-megamenu {
    height: 20px !important;
 }
@@ -1239,6 +1242,7 @@ input[type="checkbox"] {
     top: -10px;
     background-color: transparent;
 }
+*/
 }
 @media(min-width:1200px){
      .block-tb-megamenu {
