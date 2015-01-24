@@ -1179,7 +1179,7 @@ input[type="checkbox"] {
 @media(max-width:767px){
 
     .field-name-field-generic-marketing-image img, .field-name-field-bn-call-out-image img, .field-name-field-service-call-out-image img {   
-     display: block;
+    display: block;
     max-width: 100%;
     height: auto;
     float:right;
@@ -1187,6 +1187,14 @@ input[type="checkbox"] {
     padding: 10px;
     padding-right: 5% !important;
 }
+    
+.not-front.page-portfolio .view-showcase img {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: auto !important;
+    padding-left: auto !important;
+    padding-bottom: 2% !important;
+} 
     
     .field-name-field-bn-call-out-text {
     float: right;
