@@ -659,11 +659,17 @@ img {
 /* Begin division page blog news view */
 
 .division-landing-page-blognews .views-field-field-bn-call-out-image {
-    width: 250px;
-    height: 100%;
+   width: 100%;
+    height: auto;
+    width: inherit;
     padding-top: 5px;    
-    padding-bottom: 10px;
+    padding-bottom: 10px;   
 }
+
+.division-landing-page-blognews .views-field-field-bn-call-out-image img {
+    width: 100% !important;
+    height: auto !important;
+}   
 
 .division-landing-page-blognews {
     border-color: #b6985a green white blue;
@@ -671,7 +677,7 @@ img {
     border-width: 1px 0px 0px 0px;
     margin-left: 10px;
     margin-right: 10px;    
-    padding-left: 10% !important;
+    /* padding-left: 7% !important; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -766,7 +772,7 @@ img {
     float:right;
     clear: right;    
     padding: 10px;
-    padding-right: 5% !important;
+    /* padding-right: 5% !important; */
     padding-bottom: 2% !important;    
 }
 
@@ -1038,7 +1044,6 @@ input[type="checkbox"] {
     clear: both;   
     margin-left: 50px;
     margin-right: 50px; 
-    width: 480px;
     margin-bottom: 10px;
 }
 
@@ -1170,7 +1175,37 @@ input[type="checkbox"] {
 
 /* begin media Queries */
 
+
 @media(max-width:767px){
+
+    .field-name-field-generic-marketing-image img, .field-name-field-bn-call-out-image img, .field-name-field-service-call-out-image img {   
+     display: block;
+    max-width: 100%;
+    height: auto;
+    float:right;
+    clear: right;    
+    padding: 10px;
+    padding-right: 5% !important;
+}
+    
+    .field-name-field-bn-call-out-text {
+    float: right;
+    clear: both;   
+    margin-left: inherit;
+    margin-right: inherit; 
+    width: inherit;
+    margin-bottom: 10px;
+}
+    .division-landing-page-blognews {
+    border-color: #b6985a green white blue;
+    border-style: solid none none none;
+    border-width: 1px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    padding-left: 0% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
     .views-field-field-description-front-division {
     min-height: 10px;
     min-height: 10px;
