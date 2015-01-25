@@ -408,6 +408,14 @@ img {
     font-weight: 300 !important;
 }
 
+.form-item-field-project-category-tid .form-type-bef-checkbox{
+    float: left;
+    width: 340px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
 .views-widget-filter-field_project_category_tid {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
@@ -428,13 +436,16 @@ img {
     width: 20px;
     height: 34px;
     padding: 0px 0px;
-    /* font-size: inherit; */
+    /*font-size: inherit; */
     line-height: 1.428571429;
-    color: #eeeeee;
+    color: #ffffff;
     vertical-align: bottom;
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    border: 0px solid transparent;    
+    /*
     border: 1px solid transparent;
-    border-radius: 0px;
+    border-radius: 4px;
+    */
 }
 
 /* End profolio page exposed filters */
@@ -867,7 +878,8 @@ img {
 
 .form-item-field-location-type-tid .form-type-bef-checkbox{
     float: left;
-    width: 220px;
+    width: 340px;
+    padding-left: 30px;
     padding-right: 10px;
 }
 
@@ -885,8 +897,11 @@ input[type="checkbox"] {
     margin: 0px  !important;
     
 }
+.views-exposed-form .views-exposed-widget {
+    padding-top: 20px;
+}
 
-.form-item-field-location-type-tid .form-control{
+.form-item-field-location-type-tid .form-control {
     display: inline;
     width: 20px;
     height: 34px;
@@ -895,9 +910,12 @@ input[type="checkbox"] {
     line-height: 1.428571429;
     color: #ffffff;
     vertical-align: bottom;
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    border: 0px solid transparent;    
+    /*
     border: 1px solid transparent;
     border-radius: 4px;
+    */
 }
 
 .view-header > .block-title {
