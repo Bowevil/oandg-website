@@ -1249,6 +1249,17 @@ input[type="checkbox"] {
 /* begin media Queries */
 
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+    
+    .view-id-showcase .col-md-4 {
+    min-height: 250px;
+    max-height: 250px;
+    padding-bottom: 15px;
+}
+}
+
 @media(max-width:767px){
 
     .field-name-field-generic-marketing-image img, .field-name-field-bn-call-out-image img, .field-name-field-service-call-out-image img {   
