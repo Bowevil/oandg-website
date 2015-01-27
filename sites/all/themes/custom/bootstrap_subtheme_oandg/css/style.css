@@ -1258,7 +1258,18 @@ and (max-device-width : 1024px){
     max-height: 250px;
     padding-bottom: 15px;
 }
+
 }
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    #block-views-quicklinks-block .col-md-4 {
+    width: 28% !important;
+    padding-left: 0px;
+}    
+}
+
 
 @media(max-width:767px){
 
