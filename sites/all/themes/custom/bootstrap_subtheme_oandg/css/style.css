@@ -132,6 +132,28 @@ p.marketing{
 }
 /* begin Booststrap tweaks */
 
+.page-division-building-construction-services h1.page-header{
+    display: none;
+}
+.page-division-heavy-civil h1.page-header {
+    display: none;   
+}
+.page-division-special-projects h1.page-header {
+    display: none; 
+}
+.page-division-asphalt-paving h1.page-header {
+    display: none; 
+}
+.page-division-construction-materials h1.page-header {
+    display: none; 
+}
+.page-division-construction-materials h1.page-header {
+    display: none; 
+}
+.page-division-mason-products h1.page-header {
+    display: none; 
+}
+
 .texture-container {
     z-index: -999;
     margin: 0 auto;
@@ -186,6 +208,32 @@ p.marketing{
 .views-exposed-widgets {
     margin-bottom: 15px;
 }
+
+.pager {
+    display: inline-block;
+    width: 100% !important;
+    height: auto !important;    
+    padding: 0px;
+}
+
+.pager li>a, .pager li>span {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;  
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: transparent;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+}
+
+.pager li>a:hover, .pager li>span:hover{
+    background-color: #b6985a;
+    color: #000000;
+}
+
+
 
 /* end  Booststrap tweaks */
 
@@ -488,8 +536,12 @@ p.marketing{
 
 .view-display-id-block_1 .view-header {
     font-family: 'Open Sans', sans-serif !important;
-    font-weight: 300 !important;
-    color: #b6985a !important; 
+    font-weight: 400 !important;
+    color: #b6985a;
+    text-transform: uppercase;    
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10PX
 }
 
 #block-views-showcase-block-1 {
@@ -583,6 +635,17 @@ p.marketing{
 
 .views-label-field-project-client, .views-label-field-project-city, .views-label-field-project-architect-engineer, .views-label-field-project-services-provided, .views-label-field-project-date, .views-label-field-project-size {
     color: #b6985a !important; 
+}
+
+.view-header p .views-label-field-project-award {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    color: #b6985a !important; 
+}
+
+.portfolio-single-node-details .views-field.views-field-title {
+    background-color: transparent !important; 
 }
 
 .views-field-field-project-client, .views-field-field-project-city, .views-field-field-project-architect-engineer, .views-field-field-project-services-provided, .views-field-field-project-date, .views-field-field-project-size {
@@ -857,36 +920,6 @@ p.marketing{
 
 /* begin Locations page */
 
-/*
-.not-front.page-locations .view-locations {
-    margin: 0 auto;
-    width: 100%;
-    padding-right: 5% !important;
-    padding-left: 5% !important;
-    padding-bottom: 2% !important;
-}
-
-.views-table.cols-0.table caption {
-    font-family: 'Open Sans', sans-serif !important;
-    font-weight: 400 !important;
-    color: #b6985a;
-    text-transform: uppercase;    
-    text-align: left;
-    padding-left: 15px;
-    padding-bottom: 10PX;
-}
-
-.view-locations .views-table.cols-0.table td{
-    border-top: 0px solid #ddd !important;
-}
-
-
-.not-front.page-locations .view-locations .col-md-4 {
-    min-height: 140px;
-
-}
-
-*/
 
 .region-sidebar-second .view-locations {
     border-color: #b6985a green white blue;
@@ -912,47 +945,6 @@ p.marketing{
     font-size: small !important;
 }
 
-
-/*
-.form-item-field-location-type-tid .form-type-bef-checkbox{
-    float: left;
-    width: 340px;
-    padding-left: 30px;
-    padding-right: 10px;
-}
-
-.form-type-bef-checkbox.col-md-4 {
-    padding: 0px !important;
-    padding-left: 25px !important;
-    padding-bottom: 25px !important;
-    min-width: 340px !important;
-    min-height: 20px !important;
-    max-height: 20px !important;
-}
-
-
-input[type="checkbox"] {
-    margin: 0px  !important;
-    
-}
-.views-exposed-form .views-exposed-widget {
-    padding-top: 20px;
-}
-
-.form-item-field-location-type-tid .form-control {
-    display: inline;
-    width: 20px;
-    height: 34px;
-    padding: 0px 0px;
-    font-size: inherit;
-    line-height: 1.428571429;
-    color: #ffffff;
-    vertical-align: bottom;
-    background-color: #ffffff;
-    border: 0px solid transparent;    
-}
-
-*/
 .view-header > .block-title {
     position: relative;
     top: 20px;
