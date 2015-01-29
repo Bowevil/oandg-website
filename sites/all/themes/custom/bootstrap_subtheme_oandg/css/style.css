@@ -1387,6 +1387,17 @@ and (orientation : portrait) {
     background-color: #000000;  
 }
 
+.view-view-locations-by-type .form-type-bef-checkbox{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.views-table.cols-0.table caption {
+    padding-left: 0px;
+    padding-bottom: 10PX;
+}
+
 #block-block-7 {
     padding-left: 20px;
     padding-top: 20px; 
