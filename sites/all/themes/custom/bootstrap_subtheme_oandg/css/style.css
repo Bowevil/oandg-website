@@ -1348,7 +1348,7 @@ and (orientation : portrait) {
     width: 100%;
     padding-right: auto !important;
     padding-left: auto !important;
-    padding-bottom: 2% !important;
+    padding-bottom: 0% !important;
 } 
     
     .field-name-field-bn-call-out-text {
