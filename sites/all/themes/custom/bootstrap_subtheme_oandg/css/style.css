@@ -113,7 +113,7 @@ p.callout{
 
 
 p.marketing{
-    text-align: center;
+    text-align: left;
     font-family: 'Open Sans', sans-serif !important;
     font-style: italic;
     font-weight: 400;
@@ -151,6 +151,12 @@ p.marketing{
     display: none; 
 }
 .page-division-mason-products h1.page-header {
+    display: none; 
+}
+.page-product-mason-products h1.page-header {
+    display: none; 
+}
+.page-product-construction-materials h1.page-header {
     display: none; 
 }
 
@@ -645,7 +651,11 @@ p.marketing{
 }
 
 .portfolio-single-node-details .views-field.views-field-title {
-    background-color: transparent !important; 
+    background-color: transparent !important;
+}
+
+.views-row-first.portfolio-single-node-details {
+    padding-bottom: 10px;
 }
 
 .views-field-field-project-client, .views-field-field-project-city, .views-field-field-project-architect-engineer, .views-field-field-project-services-provided, .views-field-field-project-date, .views-field-field-project-size {
@@ -859,7 +869,7 @@ p.marketing{
     font-style: italic;
     font-weight: 400;
     color: #000000 !important;
-    font-size:1.250em; /* 16x.875=20 */
+    font-size:1.500em !important; /* 16x.875=24 */ 
     padding-left: 5% !important;
     padding-right: 5% !important;
     margin-bottom: 15px;
