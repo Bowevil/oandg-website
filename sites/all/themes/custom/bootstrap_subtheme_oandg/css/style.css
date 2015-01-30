@@ -1163,6 +1163,7 @@ p.marketing{
 }
 
 .field-name-field-bn-call-out-text {
+    width: 480px;
     float: right;
     clear: both;   
     margin-left: 50px;
@@ -1337,9 +1338,25 @@ and (orientation : portrait) {
     #block-views-quicklinks-block .col-md-4 {
     width: 28% !important;
     padding-left: 0px;
-}    
+}
+    #block-tb-megamenu-main-menu {
+    float: right;
+    z-index: 1;
+    position: relative;
+    width: 550px;    
+    top: 8px;
+    background-color: red;
 }
 
+    #block-tb-megamenu-menu-seconday-menu {
+    z-index: 1;
+    float: right;    
+    position: relative;
+    width: 400px;
+    top: -45px;
+    background-color: blue;
+}
+}
 
 @media(max-width:767px){
 
