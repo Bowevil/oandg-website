@@ -556,14 +556,14 @@ p.marketing{
 .portfolio-heading{
     display: inline-block;
     padding-top: 20px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 
 .view-display-id-block_1 .view-header {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
     color: #b6985a;
-    text-transform: uppercase;    
+   /* text-transform: uppercase; */   
     text-align: left;
     padding-left: 15px;
     padding-bottom: 10PX
