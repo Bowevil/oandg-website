@@ -1355,7 +1355,13 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
     
 .views-field-field-description-front-division {
-    min-height: 80px;
+    min-height: 60px;
+}
+
+.front-page-landing-page-container .col-md-4 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;    
 }
     
 #block-views-blog-news-block-5{
