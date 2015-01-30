@@ -1422,12 +1422,6 @@ and (orientation : portrait) {
 
 }
 @media(min-width:768px){
-    
-    logo img {
-        width: 50px;
-        height: auto;
-    }
-    
     .block-tb-megamenu {
    height: 20px !important;
 }
