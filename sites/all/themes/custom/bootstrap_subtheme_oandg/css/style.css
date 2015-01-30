@@ -1353,8 +1353,19 @@ and (max-device-width : 1024px){
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
+    
+.views-field-field-description-front-division {
+    min-height: 80px;
+}
+    
+#block-views-blog-news-block-5{
+    float: right;
+    position: relative;
+    width: 400px;
+}    
+    
     #block-views-quicklinks-block .col-md-4 {
-    width: 28% !important;
+    width: 40% !important;
     padding-left: 0px;
 }
 
