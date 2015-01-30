@@ -215,26 +215,41 @@ p.marketing{
     margin-bottom: 15px;
 }
 
-.pager {
+.pagination {
     display: inline-block;
-    width: 100% !important;
+    width: 100%;
     height: auto !important;    
     padding: 0px;
+    padding-left: 6%;    
+    margin: 0px;
+    margin-left: 33%;
 }
 
-.pager li>a, .pager li>span {
+.pagination li{
+    float: left;
+}
+
+.pagination li>a, .pagination li>span {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
     color: #b6985a;
     text-transform: uppercase;  
     display: inline-block;
     padding: 5px 14px;
-    background-color: transparent;
+    background-color: #000000;
     border: 0px solid #ddd;
     border-radius: 0px;
 }
 
-.pager li>a:hover, .pager li>span:hover{
+.pagination li.active, .pagination li:active>span {
+    background-color: #b6985a;
+
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    background-color: #b6985a;
+}
+
+.pagination li>a:hover, .pagination li>span:hover{
     background-color: #b6985a;
     color: #000000;
 }
