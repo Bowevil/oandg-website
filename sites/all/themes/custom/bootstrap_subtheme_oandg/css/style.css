@@ -46,7 +46,7 @@ h4 {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #000000 !important;  
 }
@@ -595,7 +595,7 @@ p.marketing{
     border-right: 1px solid #cacad9;     
 }
 
-.views-field-title-field {
+.view-id-showcase .views-field-title-field {
     min-height: 70px;  
     text-align: center;
     vertical-align: middle;
@@ -606,6 +606,25 @@ p.marketing{
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;   
+}
+
+.portfolio-single-node-details-related-client-projects > .views-field-title-field {
+    min-height: 20px;  
+    text-align: left;
+    vertical-align: middle;
+    background-color: transparent;
+    border-left: 0px solid #cacad9;
+    border-right: 0px solid #cacad9;     
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;  
+}    
+    
+.portfolio-single-node-details-related-client-projects > .views-field-title-field a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
 }
 
 .views-field-title-field a {
@@ -656,6 +675,17 @@ p.marketing{
 
 #block-views-showcase-block-4 .block-title {
     padding-left: 3%;
+}
+
+
+.views-field-field-project-marketing-headline {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000 !important;
+    font-size:1.500em !important; /* 16x.875=24 */ 
+    margin-bottom: 15px;
 }
 
 .views-label-field-project-client, .views-label-field-project-city, .views-label-field-project-architect-engineer, .views-label-field-project-services-provided, .views-label-field-project-date, .views-label-field-project-size {
@@ -1335,6 +1365,7 @@ p.marketing{
     padding-left: 60px;
 }
 /* end sub-footer */
+
 
 /* begin media Queries */
 
