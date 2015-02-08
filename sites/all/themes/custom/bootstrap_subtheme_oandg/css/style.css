@@ -160,6 +160,10 @@ p.marketing{
     display: none; 
 }
 
+.page-materials h1.page-header, .page-mason h1.page-header {
+    display: none; 
+}
+
 .texture-container {
     z-index: -999;
     margin: 0 auto;
@@ -371,22 +375,18 @@ p.marketing{
 
 /* Begin breadcrumbs */
 
-#block-easy-breadcrumb-easy-breadcrumb{
-        display:block !important;
+.easy-breadcrumb {
+    padding-left: 3%;
 }
 
-#breadcrumbs {
-    display:block !important;
+.easy-breadcrumb_segment-separator{
+    color: #b6985a;
 }
 
 .breadcrumb a, .easy-breadcrumb a {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;      
-}
-
-.breadcrumb-wrap h2{
-    font-weight: 400 !important;
 }
 
 .breadcrumb-wrap .col-md-12{
