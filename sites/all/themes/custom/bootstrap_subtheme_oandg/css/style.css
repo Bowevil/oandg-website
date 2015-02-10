@@ -376,7 +376,8 @@ p.marketing{
 /* Begin breadcrumbs */
 
 .easy-breadcrumb {
-    padding-left: 3%;
+    padding-top: 10px;
+    padding-left: 5%;
 }
 
 .easy-breadcrumb_segment-separator{
@@ -555,9 +556,13 @@ p.marketing{
 /* Begin portfolio page view */
 
 
-.not-front .view-showcase
+.not-front .view-showcase .portfolio-heading {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-.portfolio-heading{
+.not-front .view-showcase .portfolio-heading p{
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -678,7 +683,7 @@ p.marketing{
 /* Begin portfolio project single page view */
 
 #block-views-showcase-block-4 .block-title {
-    padding-left: 3%;
+    padding-left: 5%;
 }
 
 
@@ -882,14 +887,14 @@ p.marketing{
 
 .views-field-field-product-cm-description {
     padding-top: 5% !important;
-   padding-left: 5% !important;
+   padding-left: 4% !important;
    padding-right: 5% !important;   
    padding-bottom: 2% !important;
 }
 
 
 .field-name-field-generic-marketing-desc {
-   padding-left: 5% !important;
+   padding-left: 4% !important;
    padding-right: 5% !important;   
    padding-bottom: 2% !important;
 }
@@ -923,7 +928,7 @@ p.marketing{
     font-weight: 400;
     color: #000000 !important;
     font-size:1.500em !important; /* 16x.875=24 */ 
-    padding-left: 5% !important;
+    padding-left: 4% !important;
     padding-right: 5% !important;
     margin-bottom: 15px;
 }
@@ -940,7 +945,7 @@ p.marketing{
 /* begin service page */
 
 .field-name-field-service-description {
-    padding-left: 5% !important;
+    padding-left: 4% !important;
 }
 .field-name-field-service-call-out-image {
     float:right;
@@ -1226,13 +1231,13 @@ p.marketing{
 
 .field-name-field-bn-description {
     padding-right: 5% !important;
-    padding-left: 5% !important;
+    padding-left: 4% !important;
     margin-bottom: 15px;    
 }
 
 .field-name-field-bn-date-backdated {
 
-    padding-left: 5% !important;
+    padding-left: 4% !important;
 }
 
 /* end news page node */
@@ -1244,6 +1249,34 @@ p.marketing{
 }
 
 /* end awards page node */
+
+/* begin webform */
+.field-name-field-webform-introductory-text{
+    padding-bottom: 15px;
+}
+
+.panel {
+    margin-top: 15px;
+}
+
+.panel-default>.panel-heading {
+    color: #b6985a;
+    background-color: #000000;
+}
+
+.btn-default, .btn-primary {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-default:hover, .btn-primary:hover {
+    text-decoration: none;
+    color: #b6985a !important;
+    background-color: #e0e0e0;    
+}
+
+/* end webfrom */
 
 /* begin footer */
 

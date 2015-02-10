@@ -38,16 +38,12 @@
     print '</div>';
     print '<div class="col-md-8">';    
     print drupal_render($form['submitted']);
+    print drupal_render_children($form);
     print '</div>';     
     print '<div class="col-md-2">';
     print '</div>';    
 
   // Always print out the entire $form. This renders the remaining pieces of the
   // form that haven't yet been rendered above (buttons, hidden elements, etc).
-    print '<div class="col-md-2">';
-    print '</div>';
-    print '<div class="col-md-8">';    
-    print drupal_render_children($form);
-    print '</div>';     
-    print '<div class="col-md-2">';
-    print '</div>'; 
+    
+ 
