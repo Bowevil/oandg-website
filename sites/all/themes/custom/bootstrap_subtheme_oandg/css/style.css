@@ -1265,6 +1265,9 @@ p.marketing{
     margin-top: 15px;
 }
 
+.panel-default{
+    border-color: #b6985a;
+}
 .panel-default>.panel-heading {
     color: #b6985a;
     background-color: #000000;
@@ -1279,7 +1282,8 @@ p.marketing{
 .btn-default:hover, .btn-primary:hover {
     text-decoration: none;
     color: #b6985a !important;
-    background-color: #e0e0e0;    
+    background-color: #e0e0e0;
+    border-color: #b6985a;
 }
 
 /* end webfrom */
