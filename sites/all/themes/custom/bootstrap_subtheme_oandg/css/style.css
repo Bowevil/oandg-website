@@ -53,12 +53,17 @@ p {
 }
 
 li {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #000000 !important;  
 }
 
 a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.col-md-4 .views-field-body .field-content a, .tb-megamenu-menu-seconday-menu a, .tb-megamenu-main-menu a{
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
 }
@@ -102,7 +107,7 @@ img {
 
 p.callout{
     text-align: center;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-style: italic;
     font-weight: 400;
     color: #000000 !important;
@@ -115,7 +120,7 @@ p.callout{
 
 p.marketing{
     text-align: left;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-style: italic;
     font-weight: 400;
     color: #000000 !important;
@@ -239,7 +244,7 @@ p.marketing{
 }
 
 .pagination li>a, .pagination li>span {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 400 !important;
     color: #b6985a;
     text-transform: uppercase;  
@@ -386,7 +391,7 @@ p.marketing{
 }
 
 .breadcrumb a, .easy-breadcrumb a {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;      
 }
@@ -480,7 +485,7 @@ p.marketing{
 }
 
 .views-field-field-link-front-division a {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
 }
@@ -702,7 +707,7 @@ p.marketing{
     color: #b6985a !important; 
 }
 
-.view-display-id-block_6 {
+.view-id-showcase.view-display-id-block_6 {
     padding-top: 20px;
 }
 
@@ -790,7 +795,7 @@ p.marketing{
 
 
 .views-field-field-bn-call-out-text {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #000000 !important;
     width: 250px;
@@ -820,7 +825,7 @@ p.marketing{
     padding-left: 40px;
 }
 .views-field-field-division-callouts-link a {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
 }
@@ -860,7 +865,7 @@ p.marketing{
 }
 
 .division-landing-page-blognews a {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
     text-decoration: none;
@@ -1195,7 +1200,7 @@ p.marketing{
 }
 
 .col-md-12 .views-field-title a {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
     padding-left: 0px !important;
@@ -1208,7 +1213,7 @@ p.marketing{
 
 .field-name-field-bn-callout-quote > .field-items > .field-item p{
     text-align: left;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-style: italic;
     font-weight: 400;
     color: #000000 !important;
@@ -1321,10 +1326,11 @@ p.marketing{
 }
 
 .col-md-4 .views-field-body .field-content p{
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #ffffff !important;
     font-size:small;
+    margin-bottom: 10px;
 }
 
 .footer-text {
@@ -1398,7 +1404,7 @@ p.marketing{
 }
 
 .col-md-4 .views-field-field-bn-date-backdated {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #ffffff !important;
     font-size:small;
