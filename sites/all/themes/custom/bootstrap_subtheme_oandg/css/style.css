@@ -388,6 +388,11 @@ p.marketing{
 
 .easy-breadcrumb_segment-separator{
     color: #b6985a;
+    display: none;
+}
+
+.easy-breadcrumb_segment.easy-breadcrumb_segment-2 {
+    display: none;
 }
 
 .breadcrumb a, .easy-breadcrumb a {
