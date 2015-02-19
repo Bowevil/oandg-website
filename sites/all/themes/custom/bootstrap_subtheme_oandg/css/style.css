@@ -14,7 +14,7 @@ h1 {
     font-weight: 300 !important;
     color: #000000 !important;    
     font-size:2.625em !important; /* 16x.875= 42 */
-    text-transform: uppercase;    
+    text-transform: none;    
 }
 
 h1.page-header{
