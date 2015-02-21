@@ -1063,6 +1063,25 @@ p.marketing{
 
 /* begin new locations page */
 
+.phone-div.col-md-12 {
+    padding-bottom: 20px;
+}
+
+.phone-headers {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    background-color: #3f3f3f;
+    font-size:small;
+    white-space: nowrap;
+    padding-top: 5px;
+    padding-botom: 10px;    
+}
+
+h4.caption{
+    padding-top: 40px;
+    padding-left: 15px; 
+}
 
 .view-view-locations-by-type.view-id-view_locations_by_type {
    padding-left: 3% !important;
@@ -1091,9 +1110,9 @@ p.marketing{
 
 }
 
-.view-view-locations-by-type .form-type-bef-checkbox{
+.view-view-locations-by-type .form-type-bef-checkbox {
     float: left;
-    width: 33%;
+    width: 25%;
     padding-left: 30px;
     padding-right: 10px;
 }
@@ -1113,7 +1132,8 @@ p.marketing{
     
 }
 .view-view-locations-by-type .views-exposed-form .views-exposed-widget {
-    padding-top: 20px;
+    /*padding-top: 20px;*/
+    padding-bottom: 5px;    
 }
 
 .view-view-locations-by-type .form-control {
@@ -1612,6 +1632,11 @@ and (orientation : portrait) {
     position: relative;
     top:0px;
     background-color: #000000;  
+}
+
+h4.caption{
+    padding-top: 0px;
+    padding-left: 0px; 
 }
 
 .view-view-locations-by-type .form-type-bef-checkbox{
