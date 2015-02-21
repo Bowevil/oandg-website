@@ -22,6 +22,9 @@
  */
 ?>
 <?php
+    print '<div class="col-md-2">';
+    print '</div>';
+    print '<div class="col-md-8">'; 
   // Print out the progress bar at the top of the page
   print drupal_render($form['progressbar']);
 
@@ -34,9 +37,7 @@
 
   // Print out the main part of the form.
   // Feel free to break this up and move the pieces within the array.
-    print '<div class="col-md-2">';
-    print '</div>';
-    print '<div class="col-md-8">';    
+   
     print drupal_render($form['submitted']);
     print drupal_render_children($form);
     print '</div>';     
