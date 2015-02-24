@@ -506,11 +506,11 @@ p.marketing{
 /* Begin profolio page exposed filters */
 
 .not-front.page-portfolio .view-showcase {
-    margin: 0 auto;
+   /* margin: 0 auto;
     width: 100%;
     padding-right: 5% !important;
     padding-left: 5% !important;
-    padding-bottom: 2% !important;
+    padding-bottom: 2% !important; */
 }
 
 .views-exposed-form {
@@ -601,13 +601,13 @@ p.marketing{
     max-width: 900px;
 }
 
-.view-id-showcase .col-md-4 {
+.view-id-showcase .col-md-6 {
     /*min-height: 250px;
     max-height: 250px;*/
     padding-bottom: 15px;
 }
 
-.col-md-4 .views-field-field-project-showcase-image img {
+.col-md-6 .views-field-field-project-showcase-image img {
     width: 100%;
     height: auto;
     border-top: 1px solid #cacad9;
@@ -1517,8 +1517,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px){
     
     .view-id-showcase .col-md-4 {
-    min-height: 250px;
-    max-height: 250px;
+   /* min-height: 250px;
+    max-height: 250px; */
     padding-bottom: 15px;
 }
 
@@ -1529,16 +1529,16 @@ and (max-device-width : 1024px)
 and (orientation : portrait) {
     
 .views-field-field-description-front-division {
-    min-height: 60px;
+   /* min-height: 60px;*/
 }
 
 .front-page-landing-page-container .col-md-4 {
-    padding-left: 100px;
+   /* padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;  */  
 }
     
-#block-views-blog-news-block-5{
+/*#block-views-blog-news-block-5{
     float: right;
     position: relative;
     width: 500px;
@@ -1548,11 +1548,12 @@ and (orientation : portrait) {
     width: 40% !important;
     padding-left: 0px;
 }
+*/
 
     .view-id-showcase .col-md-4 {
-    min-height: 400px;
+   /* min-height: 400px;
     max-height: 400px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; */
 }
 
     #block-tb-megamenu-main-menu {
