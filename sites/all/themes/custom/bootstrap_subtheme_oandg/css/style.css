@@ -382,6 +382,7 @@ p.marketing{
 /* Begin breadcrumbs */
 
 .easy-breadcrumb {
+    display: none;
     padding-top: 10px;
     padding-left: 5%;
 }
@@ -756,6 +757,18 @@ p.marketing{
     padding-bottom: 2% !important;
     
 }
+
+.more-link {
+    margin-top: 16px;
+}
+
+.more-link a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    float: right;
+}
+
 /* End portfolio project page view */
 
 
@@ -1279,6 +1292,7 @@ h4.caption{
 
 .field-name-field-bn-date-backdated {
     padding-left: 4% !important;
+    margin-bottom: 6px;
 }
 
 .field-name-field-bn-media-downloads {
