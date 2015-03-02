@@ -1163,63 +1163,8 @@ h4.caption{
 }
 
 /* end new locations page */
+
 /* begin news landing page */
-
-/*
-.block-views-blog-news-block-1 {
-    margin: 0 auto;
-    width: 100%;
-    padding-right: 10% !important;
-    padding-left: 10% !important;
-}
-
-.view-content table{
-
-}
-
-.views-field .views-field-title {
-    font-family: 'Open Sans', sans-serif !important;
-    font-weight: 300 !important;
-    color: #b6985a !important;   
-}
-
-.views-field-field-bn-call-out-image .field-content img{
-    width: 300px;
-    height: auto;
-    margin: 20px;
-}
-
-.view-blog-news .views-field-title {
-
-}
-
-.view-blog-news .field-name-field-bn-call-out-image {
-    
-    padding: 10px;
-} 
-.view-blog-news .field-name-field-bn-call-out-text {
-    text-align: left;
-    padding:10px;
-    padding-left:20px;    
-    margin-left: 10px;
-    margin-bottom: 20px;    
-    width: 480px;
-}
-
-.views-field-field-bn-call-out-image {
-    padding: 15px;
-    float:left;
-}
-.views-field-field-bn-date-backdated{
-    float:left;
-    clear: right;
-}
-.views-field .views-field-title{
-    float:left;
-}
- 
-
-*/
 
 
 #block-views-locations-block-1 > .block-title {
@@ -1229,10 +1174,6 @@ h4.caption{
 #block-views-division-landing-page-block-1 > .block-title {
     text-align: center;
 }
-
-.view-id-blog_news {       
-}
-
 
 .col-md-12  .views-field-field-bn-call-out-image img {
     width: 100px;
@@ -1337,6 +1278,48 @@ h4.caption{
 
 /* end awards page node */
 
+
+/* begin forms page */
+.view-id-multimedia {
+   padding-left: 4% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-id-multimedia h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.views-field-field-media-url-embed-video img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cacad9;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+}
+
+.view-id-multimedia .views-field-title {
+    color: #ffffff;
+    width: 100%;
+    min-height: 60px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+
+/* end forms page */
+
+
+
+
 /* begin webform */
 .field-name-field-webform-introductory-text{
     padding-bottom: 15px;
@@ -1361,21 +1344,6 @@ h4.caption{
 .webform-component label {
     margin-top: 10px;    
 }
-
-/*
-.btn-default, .btn-primary {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
-}
-
-.btn-default:hover, .btn-primary:hover {
-    text-decoration: none;
-    color: #b6985a !important;
-    background-color: #e0e0e0;
-    border-color: #b6985a;
-}
-*/
 
 .btn-default, .btn-primary {
     font-family: 'Helvetica', sans-serif !important;
