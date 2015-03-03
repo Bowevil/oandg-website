@@ -1313,12 +1313,46 @@ h4.caption{
     padding-left: 10px;
     padding-right: 10px;   
 }
-
-
 /* end forms page */
 
+/* begin job postings page */
 
 
+.field-name-field-jp-job-description, .field-name-field-jp-posting-date, .field-name-field-jp-how-to-apply, .field-name-field-jp-job-eoe {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-job-posting {
+   padding-left: 3% !important;
+   padding-right: 5% !important;   
+   padding-bottom: 2% !important;
+}
+
+.view-job-posting h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.view-job-posting .views-field-title {
+    padding-top: 5px;
+    border-top: 1px solid #b6985a;
+    border-right: 1px solid #b6985a;    
+}
+
+.view-job-posting .views-field-field-jp-job-description {
+    margin-top: 15px;
+}
+
+.view-job-posting .views-field-field-jp-posting-date {
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
+}
+
+
+/* end job postings page */
 
 /* begin webform */
 .field-name-field-webform-introductory-text{
