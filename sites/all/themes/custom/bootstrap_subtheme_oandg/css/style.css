@@ -580,7 +580,7 @@ p.marketing{
     padding-bottom: 20px;
 }
 
-.view-display-id-block_1 .view-header {
+.view-display-id-block_1 .view-header, .view-display-id-page_3 .view-header {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
     color: #b6985a;
@@ -627,6 +627,26 @@ p.marketing{
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;   
+}
+
+.portfolio-division .views-field.views-field-title {
+    min-height: 70px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a !important;
+    border-left: 1px solid #cacad9;
+    border-right: 1px solid #cacad9;     
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;         
+}
+
+.portfolio-division .views-field.views-field-title a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    text-decoration: none;
 }
 
 .portfolio-single-node-details-related-client-projects > .views-field-title-field {
@@ -695,7 +715,7 @@ p.marketing{
 /* Begin portfolio project single page view */
 
 #block-views-showcase-block-4 .block-title {
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 
@@ -729,7 +749,7 @@ p.marketing{
 }
 
 .views-row-first.portfolio-single-node-details {
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
 }
 
 .views-field-field-project-client, .views-field-field-project-city, .views-field-field-project-architect-engineer, .views-field-field-project-services-provided, .views-field-field-project-date, .views-field-field-project-size {
@@ -1179,21 +1199,19 @@ h4.caption{
 }
 
 .col-md-12  .views-field-field-bn-call-out-image img {
-    width: 100px;
+    width: 1005;
     height: auto;
     padding-left: 15px;
 }
 .col-md-12 .views-field-field-bn-date-backdated {
     white-space: nowrap;
 }
-*/
 .col-md-12 .views-field-title a {
     font-family: 'Helvetica', sans-serif !important;
     font-weight: 300 !important;
     color: #b6985a !important;
     padding-left: 0px !important;
 }
-
 
 /* end news landing page */
 
@@ -1217,6 +1235,7 @@ td.dashboard-1 h4 {
     padding-top: 10px;
     padding-bottom: 10px;   
 }
+
 
 /* end news dashboard-1 page */
 
