@@ -1199,7 +1199,7 @@ h4.caption{
 }
 
 .col-md-12  .views-field-field-bn-call-out-image img {
-    width: 1005;
+    width: 100%;
     height: auto;
     padding-left: 15px;
 }
@@ -1238,6 +1238,11 @@ td.dashboard-1 h4 {
 
 
 /* end news dashboard-1 page */
+
+.view-dashboard-2 .dashboard-2 .views-field-field-bn-description {
+     text-align: justify;
+
+}
 
 /* begin news dashboard-2 page */
 
