@@ -1236,6 +1236,9 @@ td.dashboard-1 h4 {
     padding-bottom: 10px;   
 }
 
+.dashboard-city-state, .dashboard-backdate {
+    color: #999999;
+}
 
 /* end news dashboard-1 page */
 
