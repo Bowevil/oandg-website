@@ -1218,15 +1218,15 @@ h4.caption{
 /* begin news dashboard-1 page */
 
 
-.dashboard-1 {
+.dashboard {
     border-top: 1px solid #cacad9;    
 }
 
-td.dashboard-1 {
+td.dashboard {
     padding: 20px;
 }
 
-td.dashboard-1 h4 {
+td.dashboard h4 {
     background-color: #000000;
     padding: 10px;
 }
@@ -1388,7 +1388,7 @@ td.dashboard-1 h4 {
 /* begin job postings page */
 
 
-.field-name-field-jp-job-location, .field-name-field-jp-job-description, .field-name-field-jp-posting-date, .field-name-field-jp-how-to-apply, .field-name-field-jp-job-eoe {
+.field-name-field-jp-job-location, .field-name-field-jp-job-description, .field-name-field-jp-desired-skills-and-exp, .field-name-field-jp-essential-job-functions, .field-name-field-jp-job-requirements, .field-name-field-jp-posting-date, .field-name-field-jp-how-to-apply, .field-name-field-jp-job-eoe {
    padding-left: 3% !important;
    padding-right: 5% !important;   
    padding-bottom: 2% !important;
