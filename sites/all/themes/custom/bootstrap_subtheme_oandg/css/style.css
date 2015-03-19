@@ -1215,7 +1215,7 @@ h4.caption{
 
 /* end news landing page */
 
-/* begin news dashboard-1 page */
+/* begin news dashboard page */
 
 
 .dashboard {
@@ -1240,16 +1240,22 @@ td.dashboard h4 {
     color: #999999;
 }
 
-/* end news dashboard-1 page */
+.dashboard-readmore a {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a !important;
+    padding-left: 0px !important;    
+}
+
+/* end news dashboard page */
+
+
+/* begin news dashboard-2 page */
 
 .view-dashboard-2 .dashboard-2 .views-field-field-bn-description {
      text-align: justify;
 
 }
-
-/* begin news dashboard-2 page */
-
-
 .dashboard-2 h4 {
     background-color: #000000;
     padding: 10px;
@@ -1591,6 +1597,7 @@ td.dashboard h4 {
 }
 
 #block-views-blog-news-block-5{
+    z-index: 1;
     float: right;
     position: relative;
     background-color: #000000;
