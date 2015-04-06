@@ -268,8 +268,6 @@ p.marketing{
     color: #000000;
 }
 
-
-
 /* end  Booststrap tweaks */
 
 /* begin tb-megamenu core css */
@@ -336,7 +334,29 @@ p.marketing{
 
 /* end tb-megamenu core css */
 
- 
+/* begin user menu */
+
+#block-system-user-menu {
+    border-top: 1px solid #b6985a;    
+    background-color: #000000;
+}
+
+#block-system-user-menu > h2.block-title {
+    display: none;
+}
+#block-system-user-menu > .nav>li>a {
+    color: #b6985a;
+    float: left;
+}
+
+li .open:hover {
+    background-color:#000000 !important;
+}
+
+li .open:hover {
+    background-color:#000000 !important;
+}
+/* end user menu */
  
 /* Begin header */ 
 #header-top {
