@@ -1637,6 +1637,11 @@ td.dashboard h4 {
     font-size:small;
 }
 
+.footerimage {
+    width: 30px;
+    height: auto;
+}
+
 /* end footer */
 
 /* begin sub-footer */
