@@ -1360,6 +1360,18 @@ td.dashboard h4 {
     margin-bottom: 15px;    
 }
 
+.field-name-field-bn-media-downloads div.field-items {
+    clear: both;
+}
+
+.field-name-field-bn-media-downloads div.field-items td {
+    padding: 0;
+}
+
+.field-name-field-bn-media-downloads thead tr{
+    height: 5px !important;
+}
+
 .field-name-field-bn-date-backdated {
     padding-left: 4% !important;
     margin-bottom: 6px;
