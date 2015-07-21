@@ -352,12 +352,42 @@ p.marketing{
 li .open:hover {
     background-color:#000000 !important;
 }
-
-li .open:hover {
-    background-color:#000000 !important;
-}
 /* end user menu */
- 
+
+
+/* begin Mason menu */
+
+#block-tb-megamenu-menu-mason-division {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*#block-tb-megamenu-menu-mason-division > h2.block-title {*/
+    /*display: none;*/
+/*}*/
+
+#block-tb-megamenu-menu-mason-division > .tb-megamenu .nav > li > a {
+    color: #bbbbbb !important;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 10px !important;
+    margin: 0px !important;
+}
+
+#block-tb-megamenu-menu-mason-division > .tb-megamenu .nav > li > a:hover {
+    color: #ffffff !important;
+    background-color: #b6985a !important
+}
+#block-tb-megamenu-menu-mason-division > .tb-megamenu .nav > li > a:focus {
+    color: #ffffff !important;
+    background-color: #b6985a !important
+}
+/* end Mason menu */
+
+
+
+
 /* Begin header */ 
 #header-top {
     overflow: visible;
