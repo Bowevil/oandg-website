@@ -153,9 +153,6 @@ p.marketing{
 .page-division-construction-materials h1.page-header {
     display: none; 
 }
-.page-division-construction-materials h1.page-header {
-    display: none; 
-}
 .page-division-mason-products h1.page-header {
     display: none; 
 }
@@ -165,11 +162,9 @@ p.marketing{
 .page-product-construction-materials h1.page-header {
     display: none; 
 }
-
 .page-materials h1.page-header, .page-mason h1.page-header {
     display: none; 
 }
-
 .texture-container {
     z-index: -999;
     margin: 0 auto;
@@ -362,15 +357,16 @@ li .open:hover {
     margin-left: 20px;
 }
 
-/*#block-tb-megamenu-menu-mason-division > h2.block-title {*/
-    /*display: none;*/
-/*}*/
+#block-tb-megamenu-menu-mason-division > .tb-megamenu .nav > li {
+    padding-right: 0px;
+}
+
 
 #block-tb-megamenu-menu-mason-division > .tb-megamenu .nav > li > a {
     color: #bbbbbb !important;
-    text-align: center;
+    font-size: small;
     text-transform: uppercase;
-    border: 1px solid;
+    border: 1px solid #bbbbbb;
     padding: 10px !important;
     margin: 0px !important;
 }
@@ -384,8 +380,6 @@ li .open:hover {
     background-color: #b6985a !important
 }
 /* end Mason menu */
-
-
 
 
 /* Begin header */ 
@@ -1098,6 +1092,17 @@ li .open:hover {
 }
 
 /* end marketing - Greenpatch page */
+
+/* begin marketing - Techo Bloc page */
+
+.page-mason-techo-bloc h1.page-header {
+    display: block;
+}
+.views-field-field-marketing-description {
+    padding-left: 3% !important;
+}
+
+/* end marketing - Techo Bloc page  */
 
 
 /* begin text toggle + - */
