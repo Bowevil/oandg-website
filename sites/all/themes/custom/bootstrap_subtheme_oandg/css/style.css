@@ -1067,6 +1067,28 @@ li .open:hover {
 
 /* end mason product page */
 
+
+.mason-marketing-product img {
+    width: 100%;
+    height: auto;
+}
+
+.mason-marketing-product .views-field-field-marketing-call-out-text {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: italic;
+    font-weight: 400;
+    color: #808080 !important;
+    font-size: 1.500em !important;
+    padding-left: 4% !important;
+    padding-right: 5% !important;
+    margin-bottom: 15px;
+}
+
+.mason-marketing-product .views-field-field-marketing-description {
+    padding-left: 4% !important;
+}
+
 /* begin marketing - Greenpatch page */
 
 .field-name-field-marketing-description {
