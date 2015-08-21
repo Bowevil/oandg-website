@@ -1067,10 +1067,17 @@ li .open:hover {
 
 /* end mason product page */
 
-
+.view-display-id-attachment_masonry_marketing_products {
+    padding-left: 4%;
+}
 .mason-marketing-product img {
     width: 100%;
     height: auto;
+}
+
+.mason-market-product-image {
+    min-height: 220px;
+    margin-bottom: 15px;
 }
 
 .mason-marketing-product .views-field-field-marketing-call-out-text {
@@ -1082,10 +1089,12 @@ li .open:hover {
     font-size: 1.500em !important;
     padding-left: 4% !important;
     padding-right: 5% !important;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
 .mason-marketing-product .views-field-field-marketing-description {
+    margin-bottom: 15px;
     padding-left: 4% !important;
 }
 
