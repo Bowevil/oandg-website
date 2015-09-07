@@ -1840,6 +1840,42 @@ td.dashboard h4 {
 
 /* end footer */
 
+/* begin mason maketing product image caption/link */
+
+div.mason-product-image-field-caption {
+    min-height: 20px;
+    max-width: 220px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;;   
+}
+
+div.mason-product-image-field-caption p {
+    min-height: 20px;  
+    text-align: center;
+    vertical-align: middle;
+    background-color: #b6985a !important;     
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;         
+}
+
+div.mason-product-image-field-caption  a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* end mason maketing product image caption/link */
+    
+}
+
 /* begin sub-footer */
 #block-block-7 {
     padding-top: 10px;
