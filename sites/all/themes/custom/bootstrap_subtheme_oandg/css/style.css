@@ -1062,6 +1062,18 @@ li .open:hover {
 }
 
 
+.views-field-field-product-mp-call-out-image {
+    padding-top: 2% !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+
+.views-field-field-product-mp-call-out-image img {
+    width: 100%;
+    height: auto;
+    width: inherit;
+}
+
 /* end mason product page */
 
 /* Begin mason marketing product page */
@@ -1631,6 +1643,9 @@ td.dashboard h4 {
     color: #b6985a;
 }
 
+.url-textfield {
+    display: none;
+}
 
 /* end webfrom */
 
