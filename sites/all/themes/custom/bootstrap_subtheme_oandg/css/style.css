@@ -352,28 +352,34 @@ li .open:hover {
 
 /* begin Products submenu menu */
 
+#block-views-division-landing-page-block-3, #block-views-division-landing-page-block-6, #block-views-division-landing-page-block-4 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 
 .products-submenu {
     border: 1px solid #aaaaaa;
-
+    text-align: center;
+    min-height: 62px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .products-submenu:hover {
     background-color: #b6985a;
 }
 
+.products-submenu a {
+    font-size: small;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
 .products-submenu:hover > a{
     color: #ffffff;
     background-color: #b6985a;
-
-
-}
-
-.products-submenu a {
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    color: #aaaaaa;
 }
 
 /* end begin Products submenu menu */
