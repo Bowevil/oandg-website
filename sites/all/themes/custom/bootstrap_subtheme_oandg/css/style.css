@@ -359,27 +359,32 @@ li .open:hover {
 
 
 .products-submenu {
+    position: relative;
     border: 1px solid #aaaaaa;
     text-align: center;
-    min-height: 62px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #b6985a;
+    min-height: 30px;
 }
 
 .products-submenu:hover {
-    background-color: #b6985a;
+    background-color: #000000;
 }
 
 .products-submenu a {
-    font-size: small;
+    font-size: smaller;
     text-transform: uppercase;
     text-decoration: none;
-    color: #aaaaaa;
+    color: #000000;
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .products-submenu:hover > a{
     color: #ffffff;
-    background-color: #b6985a;
+    background-color: #000000;
 }
 
 /* end begin Products submenu menu */
