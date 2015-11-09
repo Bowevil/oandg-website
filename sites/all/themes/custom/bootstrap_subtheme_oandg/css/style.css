@@ -357,6 +357,12 @@ li .open:hover {
     padding-right: 25px;
 }
 
+#block-views-division-landing-page-block-3 > .view-id-division_landing_page, #block-views-division-landing-page-block-6 > .view-id-division_landing_page {
+    /*float: right;
+    width: 90%; */
+}
+
+
 .mason-product-sub-links {
     padding-top: 25px;
     padding-bottom: 8%;
@@ -368,7 +374,16 @@ li .open:hover {
     padding-right: 25px;
 }
 
+.page-division-construction-materials #block-views-division-landing-page-block-3 .view-id-division_landing_page {
+    float: right;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .materials-product-sub-links {
+    float: right;
+    width: 90%;
     padding-top: 25px;
     padding-bottom: 5%;
 }
