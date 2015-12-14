@@ -401,12 +401,12 @@ li .open:hover {
 }
 
 .products-submenu a {
-    font-size: smaller;
+    font-size: x-small;
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
-    position: absolute;
-    white-space: nowrap;
+    /*position: absolute;*/
+    /*white-space: nowrap;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
