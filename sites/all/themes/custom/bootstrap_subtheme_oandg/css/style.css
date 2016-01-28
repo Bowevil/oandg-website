@@ -424,7 +424,60 @@ li .open:hover {
     background-color: #000000;
 }
 
-/* end begin Products submenu menu */
+/* end Products submenu menu */
+
+
+/* begin Products tb-menu  */
+
+.tb-megamenu-menu-mason-products-menu a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .nav > li > a {
+    background:none !important;
+    border-right: none;
+    border-top: none;
+    padding: 0px 20px 0px 0px;
+    color: #000000 !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .nav > li > a:hover {
+    color: #ffffff !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .items-7 {
+    position: relative;
+    float: right;
+    padding-left: 10px;
+    background: #b6985a !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .dropdown-menu {
+    background: #b6985a !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .dropdown-menu li > a {
+    color: #000000 !important;
+}
+
+.tb-megamenu-menu-mason-products-menu .dropdown-menu li > a:hover {
+    color: #ffffff !important;
+}
+
+.tb-megamenu .tb-megamenu-menu-mason-products-menu .dropdown-menu .active > a,
+.tb-megamenu .tb-megamenu-menu-mason-products-menu .dropdown-menu .active > a:hover {
+    background-color: #000000;
+    background-image: none !important;
+}
+
+
+#block-tb-megamenu-menu-mason-products-menu .caret {
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+}
+
+/* end Products tb-menu */
 
 
 /* Begin header */ 
@@ -2174,6 +2227,14 @@ h4.caption{
     top: 0px;
     background-color: transparent;
 }
+    #block-tb-megamenu-menu-mason-products-menu {
+        z-index: 1;
+        float: right;
+        position: relative;
+        width: 900px;
+        top: 0px;
+        background-color: transparent;
+    }
     .views-field-field-mason-call-out-text {
         font-size: 1.750em !important; /* 16x.875= 28 */
     }
