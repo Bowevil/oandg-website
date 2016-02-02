@@ -352,6 +352,7 @@ li .open:hover {
 
 /* begin Products submenu menu */
 
+
 #block-views-division-landing-page-block-3, #block-views-division-landing-page-block-6, #block-views-division-landing-page-block-4 {
     padding-left: 25px;
     padding-right: 25px;
@@ -422,7 +423,7 @@ li .open:hover {
 .products-submenu:hover > span a{
     color: #ffffff;
     background-color: #000000;
-}
+} */
 
 /* end Products submenu menu */
 
@@ -440,20 +441,20 @@ li .open:hover {
     background: #b6985a !important;
 }
 
-.tb-megamenu-menu-mason-products-menu .nav {
+.tb-megamenu-menu-mason-products-menu > .nav {
     padding-top: 0px;
 }
 
-.tb-megamenu-menu-mason-products-menu a {
+.tb-megamenu-menu-mason-products-menu > a {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 300 !important;
 }
 
-.tb-megamenu-menu-mason-products-menu .nav > li {
+.tb-megamenu-menu-mason-products-menu > .nav li {
     font-size: 1.125em; /* 16x.875=18 */
 }
 
-.tb-megamenu-menu-mason-products-menu .nav > li > a {
+.tb-megamenu-menu-mason-products-menu > .nav li a {
     background:none !important;
     border-right: none;
     border-top: none;
@@ -461,7 +462,7 @@ li .open:hover {
     color: #ffffff !important;
 }
 
-.tb-megamenu-menu-mason-products-menu .nav > li > a:hover, .tb-megamenu-menu-mason-products-menu .nav > li > a:focus {
+.tb-megamenu-menu-mason-products-menu > .nav li a:hover, .tb-megamenu-menu-mason-products-menu > .nav li a:focus {
     color: #000000 !important;
 }
 
@@ -472,29 +473,29 @@ li .open:hover {
     background: #00000 !important;
 }
 
-.navbar-nav>li>.dropdown-menu {
+.tb-megamenu-menu-mason-products-menu > .navbar-nav li .dropdown-menu {
     margin-top: 8px;
 }
 
-.tb-megamenu-menu-mason-products-menu .dropdown-menu {
+.tb-megamenu-menu-mason-products-menu > .dropdown-menu {
     background: #00000 !important;
 }
 
-.tb-megamenu-menu-mason-products-menu .dropdown-menu li > a {
+.tb-megamenu-menu-mason-products-menu > .dropdown-menu li a {
     color: #ffffff !important;
 }
 
-.tb-megamenu-menu-mason-products-menu .dropdown-menu li > a:hover, .tb-megamenu-menu-mason-products-menu .dropdown-menu li > a:focus {
+.tb-megamenu-menu-mason-products-menu > .dropdown-menu li a:hover, .tb-megamenu-menu-mason-products-menu > .dropdown-menu li a:focus {
     color: #b6985a !important;
 }
 
-.tb-megamenu .tb-megamenu-menu-mason-products-menu .dropdown-menu .active > a,
-.tb-megamenu .tb-megamenu-menu-mason-products-menu .dropdown-menu .active > a:hover {
+.tb-megamenu .tb-megamenu-menu-mason-products-menu > .dropdown-menu .active > a,
+.tb-megamenu .tb-megamenu-menu-mason-products-menu > .dropdown-menu .active > a:hover {
     background-color: #000000;
     background-image: none !important;
 }
 
-#block-tb-megamenu-menu-mason-products-menu .caret {
+#block-tb-megamenu-menu-mason-products-menu  > .caret {
     border-top-color: #000000;
     border-bottom-color: #000000;
 }
