@@ -430,19 +430,24 @@ li .open:hover {
 
 /* begin Products tb-menu  */
 
+.tb-megamenu-menu-mason-products-menu .style-black {
+    float: none;
+}
+
+
 #block-tb-megamenu-menu-mason-products-menu {
     z-index: 1;
     float: none;
     position: relative;
     width: auto;
     padding-bottom: 30px;
-    padding-left: 7%;
     top: 0px;
     background: #b6985a !important;
 }
 
 .tb-megamenu-menu-mason-products-menu > .nav {
     background-color: #b6985a !important;
+    padding-left: 7%;
     padding-top: 0px;
 }
 
@@ -452,6 +457,7 @@ li .open:hover {
 }
 
 .tb-megamenu-menu-mason-products-menu .nav li {
+    padding-right: 0px;
     font-size: 1.125em; /* 16x.875=18 */
 }
 
@@ -467,12 +473,6 @@ li .open:hover {
     color: #000000 !important;
 }
 
-.tb-megamenu-menu-mason-products-menu .items-7 {
-    position: relative;
-    float: right;
-    padding-left: 10px;
-    background: #00000 !important;
-}
 
 .tb-megamenu-menu-mason-products-menu > .navbar-nav li .dropdown-menu {
     margin-top: 8px;
