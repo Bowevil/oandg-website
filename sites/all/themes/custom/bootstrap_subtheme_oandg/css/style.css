@@ -474,6 +474,7 @@ li .open:hover {
 }
 
 
+
 .tb-megamenu-menu-mason-products-menu > .navbar-nav li .dropdown-menu {
     margin-top: 8px;
 }
@@ -494,6 +495,11 @@ li .open:hover {
 .tb-megamenu-menu-mason-products-menu .dropdown-menu .active a:hover {
     background-color: #000000;
     background-image: none !important;
+}
+
+#block-tb-megamenu-menu-mason-products-menu  > .caret {
+    border-top-color: #000000;
+    border-bottom-color: #000000;
 }
 
 /* end Products tb-menu */
