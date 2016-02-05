@@ -442,6 +442,7 @@ li .open:hover {
 }
 
 .tb-megamenu-menu-mason-products-menu > .nav {
+    background-color: #b6985a !important;
     padding-top: 0px;
 }
 
@@ -450,11 +451,11 @@ li .open:hover {
     font-weight: 300 !important;
 }
 
-.tb-megamenu-menu-mason-products-menu > .nav li {
+.tb-megamenu-menu-mason-products-menu .nav li {
     font-size: 1.125em; /* 16x.875=18 */
 }
 
-.tb-megamenu-menu-mason-products-menu > .nav li a {
+.tb-megamenu-menu-mason-products-menu .nav li a {
     background:none !important;
     border-right: none;
     border-top: none;
@@ -477,20 +478,20 @@ li .open:hover {
     margin-top: 8px;
 }
 
-.tb-megamenu-menu-mason-products-menu > .dropdown-menu {
+.tb-megamenu-menu-mason-products-menu .dropdown-menu {
     background: #00000 !important;
 }
 
-.tb-megamenu-menu-mason-products-menu > .dropdown-menu li a {
+.tb-megamenu-menu-mason-products-menu .dropdown-menu li a {
     color: #ffffff !important;
 }
 
-.tb-megamenu-menu-mason-products-menu > .dropdown-menu li a:hover, .tb-megamenu-menu-mason-products-menu > .dropdown-menu li a:focus {
+.tb-megamenu-menu-mason-products-menu .dropdown-menu li a:hover, .tb-megamenu-menu-mason-products-menu .dropdown-menu li a:focus {
     color: #b6985a !important;
 }
 
-.tb-megamenu .tb-megamenu-menu-mason-products-menu > .dropdown-menu .active > a,
-.tb-megamenu .tb-megamenu-menu-mason-products-menu > .dropdown-menu .active > a:hover {
+.tb-megamenu-menu-mason-products-menu .dropdown-menu .active a,
+.tb-megamenu-menu-mason-products-menu .dropdown-menu .active a:hover {
     background-color: #000000;
     background-image: none !important;
 }
