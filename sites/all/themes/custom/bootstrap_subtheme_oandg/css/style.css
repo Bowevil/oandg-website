@@ -497,11 +497,10 @@ li .open:hover {
     background-image: none !important;
 }
 
-#block-tb-megamenu-menu-mason-products-menu  > .caret {
+#block-tb-megamenu-menu-mason-products-menu span.caret {
     border-top-color: #000000;
     border-bottom-color: #000000;
 }
-
 /* end Products tb-menu */
 
 
