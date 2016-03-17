@@ -1849,6 +1849,25 @@ td.dashboard h4 {
     float: left;
 }
 
+.view-id-multimedia.view-display-id-block_3 .views-table.cols-0.table caption, .view-display-id-mason_division_multimedia_taxonomy .views-table.cols-0.table caption {
+    font-family: 'Helvetica', sans-serif !important;
+    font-weight: 300 !important;
+    color: #000000 !important;
+    font-size: 14px;
+    text-transform: none;    
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10PX;
+    margin-bottom: 20px;
+}
+
+
+.view-id-multimedia.view-display-id-block_3 .view-grouping-header,  .view-display-id-mason_division_multimedia_taxonomy .view-grouping-header {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #b6985a; 
+    font-size:2.000em !important; /* 16x.875=32 */ 
+}
 
 /* end mason division site css */
 
