@@ -2099,8 +2099,8 @@ and (orientation : portrait) {
     z-index: 1;
     float: right;    
     position: relative;
-    width: 400px;
-    top: -45px;
+    /*width: 400px;*/
+    top: -32px;
     background-color: transparent;
 }
 }
@@ -2238,7 +2238,7 @@ h4.caption{
     z-index: 1;
     float: right;    
     position: relative;
-    width: 400px;
+    /*width: 400px;*/
     top: 0px;
     background-color: transparent;
 }
@@ -2266,7 +2266,7 @@ h4.caption{
     z-index: 1;
     float: right;    
     position: relative;
-    width: 380px;
+    /*width: 380px;*/
     top: 0px;
     background-color: transparent;
 }
