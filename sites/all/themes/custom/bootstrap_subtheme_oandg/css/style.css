@@ -1882,6 +1882,9 @@ td.dashboard h4 {
     border-right: 1px solid #b6985a;
 }
 
+.views-field.views-field-field-sch-image img {
+    margin-top: 20px;  
+}
 
 /* end mason division site css */
 
