@@ -19,8 +19,6 @@ function bootstrap_subtheme_oandg_preprocess_page(&$variables) {
   if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
     $variables['content_column_class'] = ' class="col-sm-3"';
   }
-
-    drupal_add_js(drupal_get_path('bootstrap', 'bootstrap_subtheme_oandg') . 'jasny-bootstrap/js/jasny-bootstrap.js');
 }
 
 /**

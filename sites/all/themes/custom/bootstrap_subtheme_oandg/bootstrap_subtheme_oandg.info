@@ -27,8 +27,6 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
-stylesheets[all][] = jasny-bootstrap/css/jasny-bootstrap.css
-stylesheets[all][] = jasny-bootstrap/css/navmenu-reveal.css
 
 
 ; For information on choosing the desired method, please read the Drupal
