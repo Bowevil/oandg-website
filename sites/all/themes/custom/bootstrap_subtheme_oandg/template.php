@@ -21,6 +21,13 @@ function bootstrap_subtheme_oandg_preprocess_page(&$variables) {
   }
 }
 
+function bootstrap_subtheme_oandg_preprocess_html(&$variables) {
+  drupal_add_js(drupal_get_path('theme', 'bootstrap_subtheme_oandg') . '/js/slide_panel.js', array(
+    'scope' => 'footer',
+    'weight' => '15'
+  ));
+}
+
 /**
  * Implements theme_menu_link().
  *
@@ -30,3 +37,5 @@ function bootstrap_subtheme_oandg_preprocess_page(&$variables) {
   //$output = '<button type="button" class="" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">Button</button><ul><div class="sub navmenu navmenu-default navmenu-left">' . $variables['tree'] . '</div></ul>';
   //return $output;
 //}
+
+//drupal_add_js('https://somedomain.com/external-file.js', array('type' => 'external', 'scope' => 'header', 'weight' => 10));
