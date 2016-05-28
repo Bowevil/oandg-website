@@ -133,7 +133,7 @@
   
     <?php if (!empty($page['sidebar_first'])): ?>
             <?php if (!empty($page['sidebar_second'])): ?>
-        <aside class="col-sm-2" role="complementary">
+        <aside class="col-sm-2" role="complementary" id="mason-nav-container">
       <?php endif; ?>
         <?php if (empty($page['sidebar_second'])): ?>
         <aside class="col-sm-3" role="complementary">
@@ -169,7 +169,7 @@
 
     <?php if (!empty($page['sidebar_second'])): ?>
         <?php if (!empty($page['sidebar_first'])): ?>
-        <aside class="col-sm-7" role="complementary">
+        <aside class="col-sm-7" role="complementary" id="mason-flexslider-container">
       <?php endif; ?>
         <?php if (empty($page['sidebar_first'])): ?>
         <aside class="col-sm-4" role="complementary">

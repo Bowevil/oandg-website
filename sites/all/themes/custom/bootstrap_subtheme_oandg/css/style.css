@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Balthazar);
 
 body{
     background-color:black;
@@ -431,6 +432,7 @@ li .open:hover {
 
 /* Begin New Mason Divsion pages */
 
+
 #block-menu-menu-mason-division-menu {
     background-color: #b6985a !important;
 }
@@ -441,6 +443,15 @@ li .open:hover {
 #block-menu-menu-mason-division-menu > .block-title {
     display: none;
 }
+
+#mason-flexslider-container .view-display-id-mason_division_flexslider > div > .flexslider .slides img {
+    width: auto;
+    max-width: 100%;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 .view-display-id-mason_division_flexslider > div > .flexslider .slides img {
     width: auto;
@@ -462,24 +473,54 @@ li .open:hover {
     display: none;
 }
     
-#block-menu-menu-mason-division-menu .mason-menu-nav {  
+#mason-nav-container {
+    position: relative;
+    top: 0px;
+    left: 16px;    
     background-color: #E0D9B8;
-    height: 100%; 
+    width: 200px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#mason-nav-container a {
+    font-family: 'Balthazar', serif !important;   
+    color: #ffffff;
+    background-color: #911B3E;
+    font-size: 1.125em; /* 16x.875=18 */
+    text-transform: none;
+    text-align: center;
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #E0D9B8 !important;    
+}
+
+#mason-flexslider-container {
+    position: relative;
+    top: 0px;  
+    background-color: #E0D9B8;   
+    height: 600px;
+}
+
+#block-menu-menu-mason-division-menu {  
+    background-color: #7F1334 !important;  
+    height: 600px; 
 }
 
 .region.region-sidebar-first{
+    position: relative;
+    left: -15px;
     background-color: #E0D9B8;
 }
 
 .mason-dropdown {
-    width:100%;
-    height:100%;
-    min-height:100%;
-    background-color: #7F1334;
-    padding:10px;   
+    background-color: transparent;
+    padding:0px;   
     position: absolute;
     top: 0px;
-    left: 100px;
+    left:170px;
     z-index: 2;
     display: none;
     float: left;
@@ -495,32 +536,30 @@ li .open:hover {
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     box-shadow: 0 0px 0px rgba(0,0,0,0.175);
     background-clip: padding-box;
-}    
-    
-    
-.slide-panel {
-    position: absolute;
-   /* width:300px;
-    float: right;
-    height:300px;
-    padding:10px;
-    background:#eee;
-    margin-right:-300px; */
-}
-#opener {
-    float:left;
-   /*margin:-10px 0px 0px -50px;
-    border-radius:0;*/
-    background-color: red;
 }
 
+#block-menu-menu-mason-division-menu .dropdown-menu.mason-dropdown a {
+    font-family: 'Garamond', serif !important;  
+    color: #000000 !important;
+    background-color: transparent !important;
+    font-size: 1.125em; /* 16x.875=18 */
+    text-transform: capitalize !important;
+    text-align: center;
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #000000 !important;   
+}
+    
+    
 .shrink {
     -webkit-transform: scale(.8,1);
     -ms-transform: scale(.8,1);
     transform: scale(.8,1);
-    -ms-transform: translate(-50px, 0px); /* IE 9 */
-    -webkit-transform: translate(-50px, 0px);/* Safari */
-    transform: translate(-50px, 0px);
+    -ms-transform: translate(-120px, 0px); /* IE 9 */
+    -webkit-transform: translate(-120px, 0px);/* Safari */
+    transform: translate(-120px, 0px);
 }
 
 /* End New Mason Divsion pages */
