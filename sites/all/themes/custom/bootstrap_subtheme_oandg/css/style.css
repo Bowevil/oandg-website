@@ -432,6 +432,14 @@ li .open:hover {
 
 /* Begin New Mason Divsion pages */
 
+.page-division.page-division-mason-division .row .division-landing-page .field-content p {
+    font-family: 'Balthazar', serif !important;   
+    font-size: 1.25em; /* 16x.875=20 */
+    text-transform: none;
+    text-align: justify;
+
+}
+
 .page-division.page-division-mason-division .row {
     margin-right: -21px;
 }
@@ -465,6 +473,9 @@ li .open:hover {
     display: none;
 }
  */
+.page-division.page-division-mason-division .row h2.block-title {
+    display: none;  
+}
 
 #block-menu-menu-mason-division-menu h2.block-title.mason-block-title {
     display: none;
