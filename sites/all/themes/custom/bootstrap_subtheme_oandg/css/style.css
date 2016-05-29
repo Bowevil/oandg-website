@@ -464,12 +464,12 @@ li .open:hover {
 #block-menu-menu-mason-division-menu > .block-title {
     display: none;
 }
+ */
 
-
-.mason-block-title {
+#block-menu-menu-mason-division-menu h2.block-title.mason-block-title {
     display: none;
 }
- */
+
 
 #mason-flexslider-container .view-display-id-mason_division_flexslider > div > .flexslider .slides img {
     width: 750px;
