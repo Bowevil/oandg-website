@@ -8,7 +8,7 @@
         attach: function (context, settings) {
 
                 jQuery(".form-type-bef-checkbox").addClass("col-md-4");
-                jQuery( "div.region" ).removeClass( "well" );
+                jQuery( ".page-division.page-division-mason-division div.region" ).removeClass( "well" );
                 //jQuery(".region-sidebar-first").attr('id', 'slide-panel');
                 jQuery(".expanded.dropdown").attr('id', 'openandmove');
                 //jQuery(".expanded.dropdown").addClass('shrink');
