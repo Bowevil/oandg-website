@@ -433,15 +433,12 @@ li .open:hover {
 /* Begin New Mason Divsion pages */
 
 .page-division.page-division-mason-division .row {
-    margin-right: 0px;
+    margin-right: -21px;
 }
-
-.page-division.page-division-mason-division .flex-control-nav .flex-control-paging {
-}
-
 
 #block-menu-menu-mason-division-menu {
     background-color: #b6985a !important;
+    
 }
 
 .mason-division-icon img {
@@ -460,6 +457,7 @@ li .open:hover {
     border-bottom: .2px dashed #E0D9B8 !important;
 }
 
+/*
 .page-division-mason-division h2 .block-title {
     display: none;
 }
@@ -467,19 +465,16 @@ li .open:hover {
     display: none;
 }
 
-#mason-flexslider-container .view-display-id-mason_division_flexslider > div > .flexslider .slides img {
-    width: auto;
-    max-width: 100%;
-    /*height: 700px;*/
-    margin-right: auto;
-    margin-left: auto;
+
+.mason-block-title {
+    display: none;
 }
+ */
 
-
-.view-display-id-mason_division_flexslider > div > .flexslider .slides img {
-    width: auto;
+#mason-flexslider-container .view-display-id-mason_division_flexslider > div > .flexslider .slides img {
+    width: 750px;
     max-width: 100%;
-    height: 100%;
+    height: 700px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -490,19 +485,23 @@ li .open:hover {
     border-left: none !important;
     border-right: none !important;
     border-bottom: 0px solid #b6985a !important;
+    margin-right: 5px;    
 }
 
-.mason-block-title {
-    display: none;
+.view-display-id-mason_division_flexslider .flex-control-nav {
+    z-index: 2;
+    bottom: 20px;
 }
+
     
-#mason-nav-container {
+#mason-nav-container {  
     position: relative;
-    top: 0px;
-    left: 16px;    
+    left: 15px;
     background-color: #E0D9B8;
-    width: 200px;
-    height: 700px;
+    width: 187px;
+    margin-right: 18px;    
+    padding-left: 0px;
+    padding-right: 0px;
     overflow: hidden;
 }
 
@@ -520,22 +519,9 @@ li .open:hover {
     border-bottom: .2px dashed #E0D9B8 !important;    
 }
 
-#mason-flexslider-container {
-    position: relative;
-    top: 0px;  
-    background-color: #E0D9B8;   
-    height: 700px;
-}
-
 #block-menu-menu-mason-division-menu {  
     background-color: #7F1334 !important;  
-    height: 520px; 
-}
-
-.region.region-sidebar-first{
-    position: relative;
-    left: -15px;
-    background-color: #E0D9B8;
+    height: 532px; 
 }
 
 .mason-dropdown {
@@ -543,7 +529,7 @@ li .open:hover {
     padding:0px;   
     position: absolute;
     top: 0px;
-    left:170px;
+    left: 190px;
     z-index: 2;
     display: none;
     float: left;
@@ -579,9 +565,9 @@ li .open:hover {
     -webkit-transform: scale(.8,1);
     -ms-transform: scale(.8,1);
     transform: scale(.8,1);
-    -ms-transform: translate(-120px, 0px); /* IE 9 */
-    -webkit-transform: translate(-120px, 0px);/* Safari */
-    transform: translate(-120px, 0px);
+    -ms-transform: translate(-160px, 0px); /* IE 9 */
+    -webkit-transform: translate(-160px, 0px);/* Safari */
+    transform: translate(-160px, 0px);
 }
 
 /* End New Mason Divsion pages */
