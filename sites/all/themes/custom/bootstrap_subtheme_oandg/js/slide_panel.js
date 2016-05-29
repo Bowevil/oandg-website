@@ -13,7 +13,7 @@
                 jQuery(".expanded.dropdown").attr('id', 'openandmove');
                 //jQuery(".expanded.dropdown").addClass('shrink');
                 //jQuery(".region-sidebar-first").addClass('shrink');
-                jQuery(".dropdown-menu").addClass("mason-dropdown");
+               jQuery(".dropdown-menu").addClass("mason-dropdown");
                 jQuery(".block-title").addClass("mason-block-title");
                 //jQuery(".menu.nav").addClass("mason-menu-nav").attr('id', 'slide-panel');
                 //jQuery(".dropdown-toggle").addClass('slide-panel');

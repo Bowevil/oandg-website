@@ -424,7 +424,7 @@ li .open:hover {
 .products-submenu:hover > span a{
     color: #ffffff;
     background-color: #000000;
-} */
+}
 
 /* end Products submenu menu */
 
@@ -432,9 +432,32 @@ li .open:hover {
 
 /* Begin New Mason Divsion pages */
 
+.page-division.page-division-mason-division .row {
+    margin-right: 0px;
+}
+
+.page-division.page-division-mason-division .flex-control-nav .flex-control-paging {
+}
+
 
 #block-menu-menu-mason-division-menu {
     background-color: #b6985a !important;
+}
+
+.mason-division-icon img {
+    width: auto; /* undo width: 100%  in flexslider.css*/
+    max-width:100%;  /* Make sure the image stays inside its surrounding container. */
+    height: auto; /* keep the aspect ratio */
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.mason-division-icon {
+    border-style: dashed;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: .2px dashed #E0D9B8 !important;
 }
 
 .page-division-mason-division h2 .block-title {
@@ -447,7 +470,7 @@ li .open:hover {
 #mason-flexslider-container .view-display-id-mason_division_flexslider > div > .flexslider .slides img {
     width: auto;
     max-width: 100%;
-    height: 600px;
+    /*height: 700px;*/
     margin-right: auto;
     margin-left: auto;
 }
@@ -479,7 +502,7 @@ li .open:hover {
     left: 16px;    
     background-color: #E0D9B8;
     width: 200px;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
 }
 
@@ -501,12 +524,12 @@ li .open:hover {
     position: relative;
     top: 0px;  
     background-color: #E0D9B8;   
-    height: 600px;
+    height: 700px;
 }
 
 #block-menu-menu-mason-division-menu {  
     background-color: #7F1334 !important;  
-    height: 600px; 
+    height: 520px; 
 }
 
 .region.region-sidebar-first{
@@ -525,7 +548,6 @@ li .open:hover {
     display: none;
     float: left;
     min-width: 160px;
-    height: 600;
     padding: 5px 0;
     margin: 2px 0 0;
     font-size: 14px;
@@ -618,7 +640,7 @@ li .open:hover {
 }
 
 .tb-megamenu-menu-mason-products-menu .dropdown-menu {
-    background: #00000 !important;
+    background: #000000 !important;
 }
 
 .tb-megamenu-menu-mason-products-menu .dropdown-menu li a {
@@ -1263,7 +1285,7 @@ li .open:hover {
     font-family: 'Open Sans', sans-serif !important;
     font-style: italic;
     font-weight: 400;
-    ccolor: #808080 !important;
+    color: #808080 !important;
     font-size:1.250em;    
     margin-bottom: 15px;
 }
@@ -1508,7 +1530,7 @@ li .open:hover {
     font-size:medium;
     white-space: nowrap;
     padding-top: 5px;
-    padding-botom: 10px;    
+    padding-bottom: 10px;    
 }
 
 h4.caption{
@@ -2184,7 +2206,6 @@ div.mason-product-image-field-caption  a {
 
 /* end mason maketing product image caption/link */
     
-}
 
 /* begin sub-footer */
 #block-block-7 {
@@ -2282,8 +2303,8 @@ and (orientation : portrait) {
 .not-front.page-portfolio .view-showcase img {
     margin: 0 auto;
     width: 100%;
-    padding-right: auto !important;
-    padding-left: auto !important;
+    padding-right:auto !important;
+    padding-left:auto !important;
     padding-bottom: 0% !important;
 } 
     
