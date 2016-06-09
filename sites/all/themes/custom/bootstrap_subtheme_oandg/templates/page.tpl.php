@@ -73,6 +73,13 @@
  * @ingroup themeable
  */
 ?>
+
+<?php $url =  "//{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}"; ?>
+<?php $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' ); ?>
+
+
+<?php if (strpos($escaped_url, 'mason-division') == false): ?>
+
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container">
     <div class="navbar-header">
@@ -112,6 +119,7 @@
     <?php endif; ?>
   </div>
 </header>
+<?php endif; ?>
 
 <div class="main-container container">
 
@@ -189,5 +197,7 @@
     <?php endif; ?>
 </div>
 <footer class="footer">
-  <?php print render($page['footer']); ?>
+    <?php if (strpos($escaped_url, 'mason-division') == false): ?>
+      <?php print render($page['footer']);   ?>
+    <?php endif; ?>
 </footer>
